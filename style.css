@@ -8,17 +8,26 @@ body {
   margin: 0;
   width: 100%;
   box-sizing: border-box;
-  background-color: #E90A43;
+  font-family: product sans;
 }
 
 .header {
   /* uncomment to make fixed header */
   /* position: fixed; */
+  position: absolute;
   float: left;
   width: 100%;
   height: 175px;
   background-color: #E90A4390;
   backdrop-filter: saturate(180%) blur(40px);
+  z-index: 99999;
+}
+
+.redhead {
+  position: absolute;
+  width: 100%;
+  height: 175px;
+  background-color: #E90A43;
 }
 
 .logo {
@@ -44,11 +53,12 @@ body {
   float: left;
   box-shadow: 0 10px 10px #59041A50;
   margin-bottom: 20px;
-  transition: box-shadow 0.4s ease-in-out;
+  transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
 }
 
 .card:hover {
   box-shadow: 0 0 0 #59041A50;
+  transform: scale(0.99);
 }
 
 .cleft {
@@ -57,7 +67,7 @@ body {
 
 .mainarea {
   margin-top: 175px;
-  width: 100%
+  width: 100%;
   float: left;
 }
 
@@ -76,6 +86,7 @@ body {
 
 .cardpersonimg {
   width: 70px;
+  height: 70px;
   margin: 15px 0 0 15px;
   border-radius: 35px;
   object-fit: cover;
@@ -91,7 +102,6 @@ body {
 }
 
 .cardtitle {
-  font-family: product sans;
   font-weight: bold;
   font-size: 24px;
   width: calc(100% - 15px);
@@ -100,7 +110,6 @@ body {
 }
 
 .cardpersonname {
-  font-family: product sans;
   font-size: 18px;
   color: #AAAAAA;
   width: calc(100% - 15px);
@@ -135,8 +144,115 @@ body {
 }
 
 .pagetitle {
-  font-size: 70px;
-  font-family: product sans;
+  font-size: 65px;
   font-weight: bold;
   color: white;
+  left: 10%;
+  right: 10%%;
+  bottom: 30px;
+  position: absolute;
+  text-shadow: 0px 5px 15px black;
+}
+
+.enterbutton {
+  width: 100%;
+  float: left;
+  margin: 50px 0;
+  background-color: #E90A43;
+  height: 160px;
+}
+
+.enterbuttontext {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 55px;
+}
+
+.leftdesc {
+  float: left;
+  width: calc(60% - 10px);
+}
+
+.rightdesc {
+  float: right;
+  width: calc(40% - 10px);
+}
+
+.descauthor {
+  width: 100%;
+  float: left;
+  margin-bottom: 40px;
+}
+
+.descimg {
+  width: 75px;
+  height: 75px;
+  margin-right: 15px;
+  border-radius: 37.5px;
+  object-fit: cover;
+  float: left;
+}
+
+.descpersondetails {
+  width: calc(100% - 90px);
+  float: left;
+  padding: 12px 0;
+  box-sizing: border-box;
+}
+
+.titles {
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.text {
+  color: black;
+  font-size: 20px;
+  width: 100%;
+  float: left;
+  text-align: justify;
+}
+
+.trustdiv {
+  width: 100%;
+  float: left;
+  box-shadow: 0 2px 3px #00000050;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  padding: 23px;
+  box-sizing: border-box;
+}
+
+.trusttitle {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-left: 20px;
+  float: left;
+}
+
+.trusttext {
+  float: left;
+  width: 100%;
+  color: black;
+  font-size: 18px;
+  font-weight: lighter;
+  text-align: justify;
+  margin-top: 15px;
+}
+
+.badgeimg {
+  width: 75px;
+  height: 75px;
+  float: left;
+  margin-top: -43px;
 }
