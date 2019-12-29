@@ -241,9 +241,8 @@ body {
   color: black;
   font-weight: bold;
   font-size: 20px;
-  letter-spacing: 5px;
   margin-left: 20px;
-  float: left;
+  float: right;
 }
 
 .trusttext {
@@ -252,7 +251,6 @@ body {
   color: black;
   font-size: 18px;
   font-weight: lighter;
-  text-align: justify;
   margin-top: 15px;
 }
 
