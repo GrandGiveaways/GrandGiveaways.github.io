@@ -159,13 +159,13 @@ body {
   color:white;
   left:5%;
   right:20%;
-  bottom:30%
+  bottom:30%;
 }
 
 .enterbutton {
-  width: 80%;
+  width: 100%;
   float: left;
-  margin: 50px 0;
+  margin: 30px 0;
   background-color: #E90A43;
   height: 130px;
 }
