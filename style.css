@@ -163,11 +163,11 @@ body {
 }
 
 .enterbutton {
-  width: 100%;
+  width: 80%;
   float: left;
   margin: 50px 0;
   background-color: #E90A43;
-  height: 160px;
+  height: 130px;
 }
 
 .enterbuttontext {
