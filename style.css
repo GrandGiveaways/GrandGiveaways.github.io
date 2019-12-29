@@ -144,14 +144,22 @@ body {
 } 
 
 .pagetitle {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: bold;
   color: white;
   left: 5%;
   right: 20%;
-  bottom: 30px;
+  top: 40%;
   position: absolute;
-  text-shadow: 0px 5px 15px black;
+/*   text-shadow: 0px 5px 15px black; */
+}
+
+.pagecaption {
+  font-size: 20px;
+  color:white;
+  left:5%;
+  right:20%;
+  bottom:30%
 }
 
 .enterbutton {
