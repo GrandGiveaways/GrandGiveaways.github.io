@@ -136,7 +136,7 @@ body {
 }
 
 .pageheader {
-  background-image: url(stuff/iphone 1.jpg);
+  background-image: url('stuff/iphone 1.jpg');
   background-size: cover;
   background-position-y: center;
   float: left;
