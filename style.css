@@ -275,3 +275,6 @@ body {
   margin-top: 30px;
   margin-bottom: 60px;
 }
+.scaled {
+  transform: scale (0.5);
+}
