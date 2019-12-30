@@ -155,12 +155,11 @@ body {
 } 
 
 .pagetitle {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: bold;
   color: white;
   left: 5%;
-  right: 20%;
-  top: 40%;
+  top: 50%;
   position: absolute;
 /*   text-shadow: 0px 5px 15px black; */
 }
@@ -168,9 +167,9 @@ body {
 .pagecaption {
   font-size: 20px;
   color:white;
-  left:5%;
-  right:20%;
-  bottom:30%;
+  left:5.2%;
+  bottom:10%;
+  position: absolute;
 }
 
 .enterbutton {
