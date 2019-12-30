@@ -114,7 +114,7 @@ body {
 
 .cardtitle {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
   width: calc(100% - 15px);
   float: left;
   color: black;
@@ -136,12 +136,12 @@ body {
 }
 
 .pageheader {
-  background-image: url(stuff/img.jpg);
+  background-image: url(stuff/iphone 1.jpg);
   background-size: cover;
   background-position-y: center;
   float: left;
   width: 100%;
-  height: 300px;
+  height: 250px;
   position: relative;
 }
 
@@ -152,25 +152,33 @@ body {
   bottom: 0;
   right: 0;
   background-image: linear-gradient(to top, #00000060 0%, #00000030 100%);
-}
+} 
 
 .pagetitle {
-  font-size: 65px;
+  font-size: 40px;
   font-weight: bold;
   color: white;
-  left: 10%;
-  right: 10%%;
-  bottom: 30px;
+  left: 5%;
+  right: 20%;
+  top: 40%;
   position: absolute;
-  text-shadow: 0px 5px 15px black;
+/*   text-shadow: 0px 5px 15px black; */
+}
+
+.pagecaption {
+  font-size: 20px;
+  color:white;
+  left:5%;
+  right:20%;
+  bottom:30%;
 }
 
 .enterbutton {
   width: 100%;
   float: left;
-  margin: 50px 0;
+  margin: 30px 0;
   background-color: #E90A43;
-  height: 160px;
+  height: 130px;
 }
 
 .enterbuttontext {
@@ -215,25 +223,23 @@ body {
 }
 
 .titles {
-  font-size: 40px;
-  font-weight: bold;
+  font-size: 30px;
   color: black;
   width: 100%;
   float: left;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .text {
   color: black;
-  font-size: 20px;
+  font-size: 14px;
   width: 100%;
   float: left;
-  text-align: justify;
 }
 
 .trustdiv {
   width: 100%;
-  float: left;
+  float: right;
   box-shadow: 0 2px 3px #00000050;
   border-radius: 20px;
   margin-bottom: 40px;
@@ -246,9 +252,8 @@ body {
   color: black;
   font-weight: bold;
   font-size: 20px;
-  letter-spacing: 5px;
   margin-left: 20px;
-  float: left;
+  float: right;
 }
 
 .trusttext {
@@ -257,13 +262,14 @@ body {
   color: black;
   font-size: 18px;
   font-weight: lighter;
-  text-align: justify;
   margin-top: 15px;
 }
 
 .badgeimg {
-  width: 75px;
   height: 75px;
   float: left;
   margin-top: -43px;
 }
+
+.free {
+  text-align:center;
