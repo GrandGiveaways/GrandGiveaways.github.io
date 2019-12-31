@@ -281,8 +281,8 @@ body {
 /* The Giveaways version 2 */
 
 .card2 {
-  width: calc(50% - 10px);
-  height: 145px;
+  width: calc(25% - 10px);
+  height: 195px;
   background-color: white;
   border-radius: 15px;
   overflow: hidden;
