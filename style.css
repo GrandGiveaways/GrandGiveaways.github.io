@@ -163,15 +163,16 @@ body {
   left: 5%;
   top: 50%;
   position: absolute;
-/*   text-shadow: 0px 5px 15px black; */
+  text-shadow: 0px 5px 15px black;
 }
 
 .pagecaption {
+  position: absolute;
   font-size: 20px;
   color:white;
   left:5.2%;
-  bottom:20%;
-  position: absolute;
+  top:80%;
+  text-shadow: 0px 5px 15px black;
 }
 
 .enterbutton {
