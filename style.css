@@ -278,94 +278,75 @@ body {
   margin-bottom: 60px;
 }
 
-.cardscaled {
-  width: calc(50% - 10px);
-  height: 390px;
-  background-color: white;
-  border-radius: 30px;
-  overflow: hidden;
-  float: left;
-  box-shadow: 0 10px 10px #59041A50;
-  margin-bottom: 20px;
-  transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
-  transform: scale (0.5);
-}
+/* The Giveaways version 2 */
 
 .card2 {
   width: calc(50% - 10px);
-  height: 390px;
+  height: 145px;
   background-color: white;
-  border-radius: 30px;
+  border-radius: 15px;
   overflow: hidden;
   float: left;
-  box-shadow: 0 10px 10px #59041A50;
-  margin-bottom: 20px;
+  box-shadow: 0 5px 5px #59041A50;
+  margin-bottom: 10px;
   transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
-  transform:scaled (0.5);  
 }
 
 .card2:hover {
   box-shadow: 0 0 0 #59041A50;
-  transform: scale(0.99);
+  transform: scale(0.95);
 }
 
 .cleft2 {
-  margin-right:20px;
-  transform:scaled (0.5);
+  margin-right:10px;
 }
 
 
 .cardimg2 {
   width: 100%;
-  height: 290px;
+  height: 145px;
   float: left;
   object-fit: cover;
-  transform:scaled (0.5);
 
 }
 
 .cardpersondiv2 {
   float: left;
-  width: 100px;
-  height: 100px;
-  transform:scaled (0.5);
+  width: 50px;
+  height: 50px;
 
 }
 
 .cardpersonimg2 {
-  width: 70px;
-  height: 70px;
-  margin: 15px 0 0 15px;
-  border-radius: 35px;
+  width: 35px;
+  height: 35px;
+  margin: 7.5px 0 0 7.5px;
+  border-radius: 17.5px;
   object-fit: cover;
   float: left;
-  transform:scaled (0.5);
 }
 
 .carddetails2 {
-  width: calc(100% - 100px);
+  width: calc(100% - 50px);
   float: left;
-  height: 100px;
-  padding: 25px 0;
+  height: 50px;
+  padding: 12.5px 0;
   box-sizing: border-box;
-  transform: scale (0.5);
 }
 
 .cardtitle2 {
   font-weight: bold;
-  font-size: 20px;
-  width: calc(100% - 15px);
+  font-size: 10px;
+  width: calc(100% - 7.5px);
   float: left;
   color: black;
-  transform: scale (0.5);
 }
 
 .cardpersonname2 {
-  font-size: 18px;
+  font-size: 9px;
   color: #AAAAAA;
-  width: calc(100% - 15px);
+  width: calc(100% - 7.5px);
   float: left;
-  transform: scale (0.5);
 }
 
 .cardtitle2, .cardpersonname2 {
