@@ -65,7 +65,7 @@ body {
   box-shadow: 0 10px 10px #59041A50;
   margin-bottom: 20px;
   transition: box-shadow 0.4s ease-in-out, transform 0.4s ease-in-out;
-  transform: scale (0.5);
+  transform: scale (0.5, 0.5);
   
 }
 
