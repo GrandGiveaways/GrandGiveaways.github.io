@@ -274,8 +274,8 @@ body {
 }
 
 .additionalgiveaways {
-  margin-top: 30px;
-  margin-bottom: 60px;
+  float:left;
+  width:100%;
 }
 
 /* The Giveaways version 2 */
