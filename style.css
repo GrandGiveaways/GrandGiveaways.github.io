@@ -223,17 +223,32 @@ body {
   box-sizing: border-box;
 }
 
-.titles {
-  font-size: 30px;
+.termtitles {
+  font-size: 20px;
+  color: black;
+  width: 100%;
+  float: left;
+  margin-bottom: 5px;
+}
+
+.termtext {
+  color: black;
+  font-size: 11px;
+  width: 100%;
+  float: left;
+}
+
+.desctitles {
+  font-size: 25px;
   color: black;
   width: 100%;
   float: left;
   margin-bottom: 15px;
 }
 
-.text {
+.desctext {
   color: black;
-  font-size: 14px;
+  font-size: 13px;
   width: 100%;
   float: left;
 }
@@ -242,18 +257,19 @@ body {
   width: 100%;
   float: right;
   box-shadow: 0 2px 3px #00000050;
-  border-radius: 20px;
+  border-radius: 15px;
   margin-bottom: 40px;
-  padding: 23px;
+  padding: 20px;
   box-sizing: border-box;
+  background-color:#C4291505;
 }
 
 .trusttitle {
   text-transform: uppercase;
   color: black;
   font-weight: bold;
-  font-size: 20px;
-  margin-left: 20px;
+  font-size: 17px;
+  margin-left: 15px;
   float: left;
 }
 
@@ -261,15 +277,15 @@ body {
   float: left;
   width: 100%;
   color: black;
-  font-size: 18px;
+  font-size: 14.5px;
   font-weight: lighter;
-  margin-top: 15px;
+  margin-top: 7px;
 }
 
 .badgeimg {
-  height: 75px;
+  height: 60px;
   float: left;
-  margin-top: -43px;
+  margin-top: -33px;
 }
 
 .additionalgiveaways {
