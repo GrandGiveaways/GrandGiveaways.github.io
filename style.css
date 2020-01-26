@@ -179,7 +179,7 @@ body {
 .enterbutton {
   width: 100%;
   float: left;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   background-color: #E90A43;
   text-align: center;
   font-size: 30px;
@@ -189,6 +189,11 @@ body {
   padding: 30px;
   box-sizing: border-box;
   box-shadow: 0 2px 3px #59041A50;
+}
+ a:hover {
+  color:white;
+  text-decoration-line: none;
+
 }
 
 .leftdesc {
@@ -330,4 +335,9 @@ body {
   float: left;
   width: 100%;
   margin: 100px 0 50px 0;
+}
+
+.SMicons {
+  height: 33px;
+  margin:5px 10px;
 }
