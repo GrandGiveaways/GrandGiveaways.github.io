@@ -263,6 +263,7 @@ body {
   float: right;
   box-shadow: 0 2px 3px #00000050;
   border-radius: 15px;
+  margin-top: 20px;
   margin-bottom: 40px;
   padding: 20px;
   box-sizing: border-box;
@@ -340,4 +341,51 @@ body {
 .SMicons {
   height: 33px;
   margin:5px 10px;
+}
+
+.container {
+  text-align: center;
+
+}
+
+.entries {
+  margin-bottom: 10px; 
+}
+
+.entriesText {
+  text-align:center; 
+  font-size: 30px;
+}
+
+.clock {
+  height: 20px;
+}
+
+.emailform {
+  margin-top: 30px;
+  margin-bottom:30px;
+}
+
+.sub-btn {
+  width: 30%;
+  float: right;
+  margin-top: 7px;
+  background-color: #E90A43;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 15px;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 0 2px 3px #59041A50;
+}
+
+.emailaddress {
+  width: 100%;
+  background-color: #efe1e1;
+  line-height: 2.2;
+  color: #E90A43;
+  border: none;
+  text-indent: 30px;
+
 }
