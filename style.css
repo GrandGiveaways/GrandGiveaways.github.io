@@ -179,7 +179,7 @@ body {
 .enterbutton {
   width: 100%;
   float: left;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   background-color: #E90A43;
   text-align: center;
   font-size: 30px;
@@ -189,6 +189,11 @@ body {
   padding: 30px;
   box-sizing: border-box;
   box-shadow: 0 2px 3px #59041A50;
+}
+ a:hover {
+  color:white;
+  text-decoration-line: none;
+
 }
 
 .leftdesc {
@@ -223,17 +228,32 @@ body {
   box-sizing: border-box;
 }
 
-.titles {
-  font-size: 30px;
+.termtitles {
+  font-size: 20px;
+  color: black;
+  width: 100%;
+  float: left;
+  margin-bottom: 5px;
+}
+
+.termtext {
+  color: black;
+  font-size: 13px;
+  width: 100%;
+  float: left;
+}
+
+.desctitles {
+  font-size: 25px;
   color: black;
   width: 100%;
   float: left;
   margin-bottom: 15px;
 }
 
-.text {
+.desctext {
   color: black;
-  font-size: 14px;
+  font-size: 15px;
   width: 100%;
   float: left;
 }
@@ -242,18 +262,20 @@ body {
   width: 100%;
   float: right;
   box-shadow: 0 2px 3px #00000050;
-  border-radius: 20px;
+  border-radius: 15px;
+  margin-top: 50px;
   margin-bottom: 40px;
-  padding: 23px;
+  padding: 20px;
   box-sizing: border-box;
+  background-color:#C4291505;
 }
 
 .trusttitle {
   text-transform: uppercase;
   color: black;
   font-weight: bold;
-  font-size: 20px;
-  margin-left: 20px;
+  font-size: 17px;
+  margin-left: 15px;
   float: left;
 }
 
@@ -261,15 +283,15 @@ body {
   float: left;
   width: 100%;
   color: black;
-  font-size: 18px;
+  font-size: 14.5px;
   font-weight: lighter;
-  margin-top: 15px;
+  margin-top: 7px;
 }
 
 .badgeimg {
-  height: 75px;
+  height: 60px;
   float: left;
-  margin-top: -43px;
+  margin-top: -33px;
 }
 
 .additionalgiveaways {
@@ -314,4 +336,79 @@ body {
   float: left;
   width: 100%;
   margin: 100px 0 50px 0;
+}
+
+.SMicons {
+  height: 33px;
+  margin:5px 10px;
+}
+
+.container {
+  text-align: center;
+
+}
+
+.entries {
+  margin-bottom: 10px;
+}
+
+.entriesText {
+  text-align:center;
+  font-size: 30px;
+}
+
+.clock {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+  padding-bottom: 3px;
+}
+
+.emailform {
+  margin-top: 10px;
+  float: left;
+  width: 100%;
+}
+
+.sub-btn {
+  width: 30%;
+  float: left;
+  margin-top: 10px;
+  background-color: #E90A43;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 12px;
+  color: white;
+  box-sizing: border-box;
+  box-shadow: 0 2px 3px #59041A50;
+}
+
+.emailaddress {
+  width: 100%;
+  background-color: #eeeeee;
+  color: #333333;
+  border: none;
+  float: left;
+}
+
+.emailinputform {
+  box-sizing: border-box;
+  background-color: none;
+  border: none;
+  padding: 12px;
+  width: calc(100% - 50px);
+  background-color: #eeeeee;
+  float: left;
+}
+
+.emailiconform {
+  width: 30px;
+  margin-left: 15px;
+  margin-top: 13px;
+}
+
+.emailiconformdiv {
+  float: left;
+  width: 50px;
 }
