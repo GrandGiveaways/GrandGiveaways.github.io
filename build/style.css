@@ -345,11 +345,13 @@ body {
 
 .container {
   text-align: center;
-
+  float: left;
 }
 
 .entries {
   margin-bottom: 10px;
+  float: left;
+  width: 100%;
 }
 
 .entriesText {
@@ -365,9 +367,23 @@ body {
 }
 
 .emailform {
-  margin-top: 10px;
   float: left;
   width: 100%;
+  margin-bottom: 30px;
+}
+
+#emailformdiv {
+  transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  max-height: 0;
+  opacity: 1;
+}
+
+#congrats {
+  display: none;
+  float: left;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .sub-btn {
@@ -382,6 +398,8 @@ body {
   color: white;
   box-sizing: border-box;
   box-shadow: 0 2px 3px #59041A50;
+  -webkit-appearance: none;
+  border: none;
 }
 
 .emailaddress {
