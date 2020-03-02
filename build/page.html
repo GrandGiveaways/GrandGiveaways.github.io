@@ -51,11 +51,18 @@
          </div>
 
           <div class="rightdesc">
-            <div>
-              <a href="" class="enterbutton">Enter (free)</a>
-              </div>
 
-
+            <div class="emailform" id="emailformdiv">
+              <form id="emailformform">
+                <div class="emailaddress">
+                  <div class="emailiconformdiv"><img src="stuff/emailicon.png" class="emailiconform"></div>
+                  <input type="email" name="address" placeholder=" Please Enter Your Email" class="emailinputform" id="email">
+                </div>
+                <br>
+                <button type="submit" class="sub-btn">Submit</button>
+              </form>
+            </div>
+            <p id="congrats">Congrats!</p>
 
 <!-- Changes -->
           <div class="container">
@@ -79,18 +86,6 @@
                <span>Ending in 2 months</span>
              </h5>
             </div>
-
-            <div class="emailform">
-              <form>
-                <div class="emailaddress">
-                  <div class="emailiconformdiv"><img src="stuff/emailicon.png" class="emailiconform"></div>
-                  <input type="email" name="email" placeholder=" Please Enter Your Email" class="emailinputform">
-                </div>
-                <br>
-                <a href="" class="sub-btn">Submit</a>
-              </form>
-            </div>
-
 
 
             <div class="trustdiv">
@@ -156,6 +151,18 @@
 
         </div>
     </div>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-database.js"></script>
+
+
+<script src="page.js" type="text/javascript"></script>
 
   </body>
 </html>
