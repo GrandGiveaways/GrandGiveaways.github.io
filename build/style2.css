@@ -1,6 +1,6 @@
 .pageheader {
   background-image: url('stuff/PPC.jpeg');
-  /*background-size: cover;*/
+  background-size: cover;
   background-position-y: center;
   float: left;
   width: 100%;
