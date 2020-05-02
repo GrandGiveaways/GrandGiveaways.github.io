@@ -15,7 +15,10 @@ firebase.analytics();
 
 document.getElementById('emailformform').addEventListener('submit', submitForm);
 
-var emailRef = firebase.database().ref('emails');
+var storedEmail = null;
+
+var fileName = window.location.pathname.substring(window.location.pathname.lastIndexOf("/") + 1).replace(/\.[^/.]+$/, "");
+var emailRef = firebase.database().ref('giveaways/' + fileName);
 
 var cools = document.getElementById('emailformdiv');
 cools.style.maxHeight = "150px";
@@ -23,28 +26,73 @@ cools.style.maxHeight = "150px";
 function submitForm(e) {
   e.preventDefault();
 
-  var email = getInputVal('email');
+  var email = document.getElementById('email').value;
 
   if (email != "") {
-    saveEmail(email);
-
-    console.log(email);
+    addEntry(email, true);
+    storedEmail = email;
 
     cools.style.maxHeight = null;
     cools.style.opacity = "0";
     cools.style.marginBottom = "0";
+    cools.remove();
 
     document.getElementById('congrats').style.display = "block";
   }
 }
 
-function getInputVal(id) {
-  return document.getElementById(id).value;
+function addEntry(email, isByEmail) {
+
+  emailRef.orderByChild('email').equalTo(email).once('value').then(function(snapshot) {
+    const data = snapshot.val() || null;
+
+    if (data) {
+      var key = Object.keys(snapshot.val())[0];
+      var entries = snapshot.child(key + '/entries').val();
+
+      window.alert(entries);
+
+      if (isByEmail) {
+        if (entries <= 9) {
+          window.alert('You have already entered your email. Please share on social media for extra entries. Each share is 2 additional entries.');
+        }
+        setEntries(11 - entries);
+      } else {
+        if (entries <= 9) {
+          firebase.database().ref('giveaways/' + fileName + '/' + key + '/entries').set(entries + 2);
+        }
+        setEntries(9 - entries);
+      }
+
+      if (entries > 9) {
+        window.alert('You have completed your entries.');
+        setEntries(0);
+      }
+    } else {
+      var newEmail = emailRef.push();
+      var emailData = {
+        email: email,
+        entries: 1
+      };
+      newEmail.set(emailData);
+
+      setEntries(9);
+    }
+  });
+
 }
 
-function saveEmail(email) {
-  var newEmail = emailRef.push();
-  newEmail.set({
-    email: email
-  });
+function moreEntries(id) {
+  if (storedEmail) {
+    addEntry(storedEmail, false);
+
+    var element = document.getElementById(id);
+    element.parentNode.removeChild(element);
+  } else {
+    window.alert('Please enter you email first.');
+  }
+}
+
+function setEntries(number) {
+  document.getElementById('numberOfEntries').innerHTML = number;
 }
