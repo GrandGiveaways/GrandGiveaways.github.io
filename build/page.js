@@ -37,7 +37,7 @@ function submitForm(e) {
     cools.style.marginBottom = "0";
     cools.remove();
 
-    document.getElementById('congrats').style.display = "block";
+    document.getElementById('Congrats. Follow Us on Social Media in order to Gain 2 additional ENTRIES EACH!!').style.display = "block";
   }
 }
 
