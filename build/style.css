@@ -9,6 +9,10 @@
   src: local('Product Sans Bold'),url('stuff/Product Sans Bold.ttf') format('truetype');
 }
 
+*:focus {
+    outline: none!important;
+}
+
 p {
   margin: 0;
   padding: 0;
@@ -138,7 +142,6 @@ body {
 }
 
 .pageheader {
-  background-image: url('stuff/iphone 1.jpg');
   background-size: cover;
   background-position-y: center;
   float: left;
@@ -341,7 +344,7 @@ body {
 .SMicons {
   height: 33px;
   margin:5px 10px;
-  
+
 }
 
 .container {
@@ -430,4 +433,57 @@ body {
 .emailiconformdiv {
   float: left;
   width: 50px;
+}
+
+
+/* Login */
+.loginBox {
+  width: 400px;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+  text-align: center;
+  margin: 0 auto;
+}
+.loginBoxHeader {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 120px;
+  color: #E90A43;
+}
+.loginInputText {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.loginInputSubmit {
+  background-color: #E90A43;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 20px auto 0 auto;
+  transition: all 0.3s ease-in-out;
+}
+.loginInputSubmit:hover {
+  opacity: 0.9;
+}
+.loginInputSubmit:active {
+  transform: scale(0.95);
+}
+.switchLoginMethod {
+  font-size: 15px;
+  color: #E90A43;
+  border-radius: 8px;
+  padding: 10px 15px;
+  margin: 20px auto 0 auto;
+  transition: background-color 0.3s ease-in-out;
+  width: fit-content;
+}
+.switchLoginMethod:hover {
+  background-color: #e90a4314;
 }
