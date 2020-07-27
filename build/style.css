@@ -467,6 +467,7 @@ body {
   cursor: pointer;
   border-radius: 5px;
   margin: 20px auto 0 auto;
+  margin-top: 20px;
   transition: all 0.3s ease-in-out;
 }
 .loginInputSubmit:hover {
@@ -475,6 +476,7 @@ body {
 .loginInputSubmit:active {
   transform: scale(0.95);
 }
+
 .switchLoginMethod {
   font-size: 15px;
   color: #E90A43;
