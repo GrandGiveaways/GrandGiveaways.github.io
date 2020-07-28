@@ -12,3 +12,34 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
+
+// document.getElementById('loginForm').addEventListener('submit', submitForm);
+//
+// function submitForm(e) {
+//   e.preventDefault();
+//
+  // var email = document.getElementById('emailValue').value;
+  // var password = document.getElementById('passwordValue').value;
+//
+//   if (email != "" && password != "") {
+//     addEntry(email, true);
+//   }
+// }
+
+function register() {
+  const email = document.getElementById('emailValue').value;
+  const password = document.getElementById('passwordValue').value;
+
+  if (email != "" && password != "") {
+    window.alert("Email: "+email+"\nPassword: "+password);
+  }
+}
+
+function login() {
+  const email = document.getElementById('emailValue').value;
+  const password = document.getElementById('passwordValue').value;
+
+  if (email != "" && password != "") {
+    window.alert("Email: "+email+"\nPassword: "+password);
+  }
+}
