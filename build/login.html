@@ -5,19 +5,53 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="header&footer.css">
     <title>Grand Giveaways</title>
   </head>
   <body>
 
-    <div class="redhead"></div>
-    <div class="header">
-      <div class="center">
-        <a href="index.html"><p class="logo">G</p></a>
-      </div>
+    <!-- Header -->
+
+    <nav class="navbar navbar-expand-lg">
+    	<a class="navbar-brand navfont navlogo" href="#">Grand Giveaway</a>
+    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+    	</button>
+    	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+    			<ul class="navbar-nav mr-auto">
+    			</ul>
+
+    			<ul class="navbar-nav ">
+    					<li class="nav-item active">
+    							 <a class="navfont nav-link" id= "give" href="#">GIVEAWAYS <span class="sr-only">(current)</span></a>
+    					</li>
+    						<li class="nav-item">
+    							<a class="navfont nav-link" id ="freebie" href="#">FREEBIES</a>
+    						</li>
+    			</ul>
+
+    		<ul class="navbar-nav navfont" id="profile">
+    				 <li class="nav-item dropdown">
+    				<img src="stuff/profile.png" class="nav-link dropdown-toggle pic2" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+    				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+    					<a class="dropdown-item" href="#">Profile</a>
+    					<a class="dropdown-item" href="#">Account</a>
+    					<a class="dropdown-item" href="#">Purchases</a>
+
+    					<div class="dropdown-divider"></div>
+    					<a class="dropdown-item" href="#">Sign Out</a>
+    				</div>
+    			</li>
+    	</ul>
     </div>
+     </nav>
+
+     <!-- Header -->
+
 
     <div class="mainarea">
-      <div class="pageheader" style="background-color:#2196f3;">
+      <div class="pageheader" style="background-color:#222222;">
         <div class="pageheaderoverlay"></div>
         <div class="pageheaderinfo">
           <p class="pagetitle">Login</p>
@@ -38,6 +72,86 @@
           </div>
         </div>
     </div>
+
+
+    <!-- Footer -->
+
+       <div class="footer">
+      	 <footer id="footer">
+       		<div class="col-5 footerparts" id="signup">
+       			<span class="footertitle"> Sign Up for FREE!</span>
+
+       			<div class="emailform2" id="emailformdiv2">
+                  <form id="emailformform2">
+                    <div class="emailaddress2">
+                      <!-- <div class="emailiconformdiv"><img src="stuff/emailicon.png" class="emailiconform"></div> -->
+                      <input type="email" name="address" placeholder="Email" class="emailinputform2" id="email">
+                      <input type="submit" name="button" value="Sign Up" class="submit emailiconform2">
+
+                    </div>
+
+                  </form>
+
+                </div>
+                <br>
+                <div class="signuptext">
+    		    <p id="signuptext">Get FREE Access to a vast collection of free products + tons of chances to win HUGE PRIZES with some of your favorite influencers and companies! Sign Up Today!
+    		     </p>
+    		 </div>
+    		 <div class="smbox">
+    		 	<a href="#"><img src="stuff/yt.png" class="sm"></a>
+    		 	<a href="#"><img src="stuff/facebook.png" class="sm"></a>
+    		 	<a href="#"><img src="stuff/instagram.png" class="sm"></a>
+    		 	<a href="#"><img src="stuff/tiktok.png" class="sm"></a>
+    		 	<a href="#"><img src="stuff/twitter.png" class="sm"></a>
+    		 </div>
+       		</div>
+
+       		<div class="col-2 footerparts" id="myaccount">
+       			<span id="footertitle2"> My Account</span>
+       			<ul class="myaccountlist">
+       				<li><a href="#">Profile</a></li>
+       				<li><a href="#">Account</a></li>
+       				<li><a href="#">Support</a></li>
+       				<li><a href="#">About</a></li>
+       				<li><a href="#">Terms</a></li>
+       			</ul>
+       			<div class="logo2">
+       				<a href="#">
+       			<p id="part1">
+       				Grand
+       			</p>
+       			<p id="part2">
+       				Giveaway
+       			</p>
+       		</a>
+       		</div>
+
+       		</div>
+
+       		<div class="col-5 footerparts" id="Influencer">
+       			<span class="footertitle">Are you an Influencer?</span>
+       			<p class="influencer">
+       				Influencer or business owner?
+       				You've come to the right place. We can help you grow tremendously by setting up giveaways of your products and services for FREE!
+       			</p>
+       			<p>
+       				<a class="learnMore" href="#">LEARN MORE...</a>
+       			<div id="BBB">
+       				<img id="BBBimg" src="stuff/BBB.png">
+       			</div>
+       		</div>
+
+
+       </footer>
+       <footer id="footer2">
+       	<div>
+       	   	<p class="footer2"><span class="copyright">© 2020 Copyright:</span> <span class="bottomtitle"> Grand Giveaway</span></p>
+       	 </div>
+       </footer>
+     </div>
+
+    <!-- Footer -->
 
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->

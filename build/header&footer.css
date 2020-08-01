@@ -1,0 +1,301 @@
+html body {
+  height:100%;
+  margin:0;
+  padding: 0;
+
+  }
+
+#wrapper {
+  min-height: 100%
+  position:relative;
+}
+
+
+/*NAVBAR*/
+
+.pic2 {
+  width: 75px;
+  height: 75px;
+  border-radius: 37px;
+  object-fit: cover;
+  float:right;
+
+}
+
+.navbar {
+	background-color:#E90A43;
+}
+
+.navlogo {
+  font-size: 1.5rem;
+  font-family: tesla;
+  font-weight: 500;
+}
+.navfont {
+	color:white;
+
+}
+
+.navfont:hover {
+	color:white;
+}
+
+#give, #freebie {
+	padding-right:2rem;
+	padding-left: 2rem;
+}
+
+#profile {
+	padding-right:2rem;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  margin:0 0 0 -2rem;
+  min-width: 7rem;
+  border-radius: 0.05rem;
+    }
+
+
+
+/*NavBAR*/
+
+
+/*Footer*/
+    .footer {
+
+      }
+
+
+    #footer {
+      /*position: relat;*/
+      bottom: 1rem;
+      width: 100%;
+      height: 27rem;
+      background-color:#222222;
+      display: flex;
+      flex-direction: row;
+      color:#CCCCCC;
+      padding-left: 70px;
+      padding-right: 70px;
+      padding-top: 2.5rem;
+    }
+
+    #footer2 {
+      width: 100%;
+      float: left;
+      padding: 20px;
+      background-color:#E90A43;
+    }
+
+    .copyright {
+    color:#CCCCCC;
+    font: 2rem;
+    }
+
+    .bottomtitle {
+    	color:white;
+
+    }
+
+    .footer2 {
+    	text-align: center;
+    	font-size:.7rem;
+      margin: auto auto;
+    }
+
+    .footerparts {
+      padding-top: 2rem;
+      padding-bottom: 0.5rem;
+      text-align:left;
+
+    }
+
+    .footertitle {
+      font-size: 1.7rem;
+      color:white;
+      text-align: left;
+      font-weight: 400;
+    }
+
+
+    #footertitle2 {
+      font-size: 1.4rem;
+      color:white;
+      text-align: left;
+    }
+
+
+
+    /*Column A*/
+
+    .emailform2 {
+      display: inline-block;
+      width: 80%;
+      padding-top: 1rem;
+    }
+
+    #emailformdiv2 {
+      transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+      max-height: 0;
+      opacity: 1;
+    }
+
+
+    .emailaddress2 {
+      width: 100%;
+      background-color: #eeeeee;
+      color: #333333;
+      border: none;
+      float: left;
+      border-radius: 7px;
+    }
+
+    .emailinputform2 {
+      box-sizing: border-box;
+      background-color: none;
+      border: none;
+      padding: 12px;
+      width: 70%;
+      background-color: #eeeeee;
+      float: left;
+      display: inline-block;
+      border-radius: 7px;
+    }
+
+    .emailiconform2 {
+      width: 30px;
+      margin:auto;
+      margin-left: 15px;
+      margin-top: 13px;
+    }
+
+    .emailiconformdiv2 {
+      float: left;
+      width: 50px;
+    }
+
+    .submit {
+
+        height: 49px;
+        width: 30%;
+        margin: 0;
+        float: right;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+        border: none;
+        background-color: red;
+        color: white;
+    }
+
+
+
+    #signuptext {
+      margin-top: 50px;
+      margin-right:auto;
+      margin-left: calc(auto-30px);
+      width: 80%;
+      color: #CCCCCC;
+      font-size: 0.5rem;
+    }
+
+     #signup {
+      padding-left: 100px;
+      padding-right:50px;
+    }
+
+
+    .sm {
+      height:2.5rem;
+      padding: 0.1rem;
+      margin-top: 20px;
+    }
+
+    .smbox {
+
+      margin-left: 0.4rem;
+      width:70%;
+      margin-top:2rem;
+    }
+
+
+
+    /*Column A*/
+
+
+    /*Column B*/
+
+    .myaccountlist {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    text-align: left;
+
+    }
+
+    .myaccountlist a {
+      color: #CCCCCC;
+      font-size: 1rem;
+
+    }
+
+    #myaccount {
+      text-align: left;
+    }
+
+    #myaccount ul {
+      margin-top:20px;
+    }
+
+
+    #part1 {
+    margin:0px;
+    margin-bottom: -15px;
+    padding-bottom: 0px;
+    }
+
+    #part2 {
+      margin:0px;
+
+    }
+
+    .logo2, .logo2 a, .logo2 a:hover {
+      margin-top: 5rem;
+      color:red;
+      font-size: 1.8rem;
+      font-family: tesla;
+      font-weight: 500;
+      padding:0px;
+    }
+    /*Column B*/
+
+
+
+
+    /*Column C*/
+
+
+    #Influencer {
+      padding-left: 50px;
+      padding-right:100px;
+    }
+
+    .influencer {
+      margin-top: 20px;
+      text-align: left;
+      margin-bottom: 30px;
+    }
+
+    .learnMore {
+      font-weight: 600;
+      font-size: 1.2rem;
+      color:red;
+    }
+
+
+    #BBBimg {
+
+        width: 6rem;
+        margin-top: 30px;
+
+    /*Column C*/
