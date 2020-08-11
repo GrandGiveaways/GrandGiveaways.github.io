@@ -1,22 +1,20 @@
+<?php
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Grand Giveaways</title>
-  </head>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/header&footer.css">
+  <title>Grand Giveaways</title>
+</head>
   <body>
-
-    <div class="redhead"></div>
-    <div class="header">
-      <div class="center">
-        <a href="index.html"><p class="logo">G</p></a>
-      </div>
-    </div>
+    <?php include('templates/header.php') ?>
 
     <div class="mainarea">
-      <div class="pageheader">
+      <div class="pageheader" style="background-image: url('stuff/iphone 1.jpg');">
         <div class="pageheaderoverlay"></div>
         <div class="pageheaderinfo">
           <p class="pagetitle">The iPhone 11 256GB + AirPods & Charging Pad Giveaway</p>
@@ -66,17 +64,17 @@
 
 <!-- Changes -->
           <div class="container">
-             <a href=""><img class ="SMicons" src="stuff/youtube.png"></a>
-             <a href=""><img class ="SMicons" src="stuff/facebook.png"></a>
-             <a href=""><img class ="SMicons" src="stuff/instagram.png"> </a>
-             <a href=""><img class ="SMicons" src="stuff/twitter.png"></a>
-             <a href=""><img class ="SMicons" src="stuff/tik tok.png"></a>
+             <img id="youtubeButton" class="SMicons" src="stuff/yt.png" onclick="moreEntries('youtubeButton');">
+             <img id="facebookButton" class="SMicons" src="stuff/facebook.png" onclick="moreEntries('facebookButton');">
+             <img id="instagramButton" class="SMicons" src="stuff/instagram.png" onclick="moreEntries('instagramButton');">
+             <img id="twitterButton" class="SMicons" src="stuff/twitter.png" onclick="moreEntries('twitterButton');">
+             <img id="tiktokButton" class="SMicons" src="stuff/tiktok.png" onclick="moreEntries('tiktokButton');">
           </div>
 
 
             <div class="entries">
               <hr>
-             <p class= "entriesText">10 Entries<p>
+             <p class="entriesText"><span id="numberOfEntries">11</span> Entries Remaining<p>
               <hr>
             </div>
 
@@ -152,17 +150,17 @@
         </div>
     </div>
 
+    <?php include('templates/footer.php') ?>
 
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-app.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-app.js"></script>
 
-<!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-analytics.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-database.js"></script>
+    <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-database.js"></script>
 
 
-<script src="page.js" type="text/javascript"></script>
-
+    <script src="js/page.js" type="text/javascript"></script>
   </body>
 </html>

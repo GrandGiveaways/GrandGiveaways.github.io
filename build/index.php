@@ -2,21 +2,19 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/header&footer.css">
     <title>Grand Giveaways</title>
   </head>
   <body style="background-color: #E90A43">
 
-    <div class="header">
-      <div class="center">
-        <p class="logo">G</p>
-      </div>
-    </div>
+    <?php include('templates/header.php') ?>
 
     <div class="center">
-      <div class="mainarea">
+      <div class="mainarea" style="margin-top:30px;">
 
-        <a href="page.html">
+        <a href="page.php">
           <div class="card cleft">
               <img src="stuff/Apple.jpg" class="cardimg">
               <div class="cardpersondiv">
@@ -65,6 +63,9 @@
 
       </div>
     </div>
+
+
+    <?php include('templates/footer.php') ?>
 
   </body>
 </html>
