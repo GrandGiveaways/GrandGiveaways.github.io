@@ -3,15 +3,20 @@
 
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <head>
+    <meta charset="utf-8">
+     <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/header&footer.css">
-  <title>Grand Giveaways</title>
-</head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+
+
+    <title>Grand Giveaways</title>
+  </head>
   <body>
+
     <?php include('templates/header.php') ?>
+
 
     <div class="mainarea">
       <div class="pageheader" style="background-image: url('stuff/iphone 1.jpg');">
@@ -21,6 +26,7 @@
           <p class="pagecaption">Enter for Your Chance to Win an iPhone 11 256GB, AirPods, and a Special Edition Belkin Wireless Charging Pad</p>
         </div>
       </div>
+
 
 
     <div class="center">
@@ -150,17 +156,31 @@
         </div>
     </div>
 
-    <?php include('templates/footer.php') ?>
 
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-app.js"></script>
-
-    <!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
-    <script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-analytics.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-database.js"></script>
+      <?php include('templates/footer.php') ?>  
 
 
-    <script src="js/page.js" type="text/javascript"></script>
+  
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-database.js"></script>
+
+  <script type="text/javascript" src="js/tabs.js"></script>
+ <script type="text/javascript" src="js/page.js"></script>
+
+
   </body>
 </html>
