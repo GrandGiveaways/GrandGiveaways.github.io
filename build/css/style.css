@@ -17,6 +17,7 @@ p {
   margin: 0;
   padding: 0;
 }
+
 body {
   float: left;
   padding-bottom: 80px;
@@ -83,6 +84,7 @@ body {
 }
 
 .mainarea {
+  /*margin-top: 175px;*/
   width: 100%;
   float: left;
 }
@@ -141,6 +143,7 @@ body {
 }
 
 .pageheader {
+  background-image: url('stuff/iphone 1.jpg');
   background-size: cover;
   background-position-y: center;
   float: left;
@@ -329,7 +332,7 @@ body {
   float: left;
   width: 100%;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 .additionaltitle {
@@ -344,7 +347,7 @@ body {
 .SMicons {
   height: 33px;
   margin:5px 10px;
-
+  
 }
 
 .container {
@@ -404,6 +407,7 @@ body {
   box-shadow: 0 2px 3px #59041A50;
   -webkit-appearance: none;
   border: none;
+  cursor: pointer;
 }
 
 .emailaddress {
@@ -435,6 +439,11 @@ body {
   width: 50px;
 }
 
+
+.pic {
+  width:100%;
+  position: relative;
+}
 
 /* Login */
 .loginBox {
