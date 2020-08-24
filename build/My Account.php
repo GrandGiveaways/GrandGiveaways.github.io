@@ -332,6 +332,7 @@
 </div>
 <!-- Main Area -->
 
+    <?php include('templates/footer.php') ?>
 
 
 
