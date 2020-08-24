@@ -13,6 +13,13 @@ html body {
 
 /*NAVBAR*/
 
+ .redhead2 {
+  position: absolute;
+  width: 100%;
+  height: 130px;
+  background-color: #E90A43;
+}
+
 .pic2 {
   width: 75px;
   height: 75px;
@@ -23,7 +30,8 @@ html body {
 }
 
 .navbar {
-	background-color:#E90A43;
+	background-color:#E90A4390;
+  height: 130px
 }
 
 .navlogo {
@@ -63,7 +71,7 @@ html body {
 
 /*Footer*/
     .footer {
-
+   
       }
 
 
@@ -71,21 +79,22 @@ html body {
       /*position: relat;*/
       bottom: 1rem;
       width: 100%;
-      height: 27rem;
+      height: 27rem;  
       background-color:#222222;
       display: flex;
-      flex-direction: row;
+      flex-direction: row; 
       color:#CCCCCC;
-      padding-left: 70px;
-      padding-right: 70px;
+      padding-left: 70px; 
+      padding-right: 70px; 
       padding-top: 2.5rem;
     }
 
     #footer2 {
+    	/*position: absolute;*/
+      bottom: 0;
       width: 100%;
-      float: left;
-      padding: 20px;
-      background-color:#E90A43;
+      height: 1rem;  
+      background-color:#E90A43;   
     }
 
     .copyright {
@@ -172,7 +181,7 @@ html body {
 
     .emailiconformdiv2 {
       float: left;
-      width: 50px;
+      width: 50px; 
     }
 
     .submit {
@@ -217,9 +226,6 @@ html body {
       width:70%;
       margin-top:2rem;
     }
-
-
-
     /*Column A*/
 
 
@@ -229,7 +235,7 @@ html body {
     list-style-type: none;
     margin: 0;
     padding:0;
-    text-align: left;
+    text-align: left; 
 
     }
 
@@ -274,7 +280,6 @@ html body {
 
     /*Column C*/
 
-
     #Influencer {
       padding-left: 50px;
       padding-right:100px;
@@ -297,5 +302,7 @@ html body {
 
         width: 6rem;
         margin-top: 30px;
-
+     }
     /*Column C*/
+
+
