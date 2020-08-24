@@ -41,18 +41,29 @@ height: 100px;
   margin-top: -50px;
 }
 
+
+/*.loginBoxHeader {
+  font-weight: bold;
+  font-size: 120px;
+  color: #E90A43;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 30px: 
+}*/
+
 #mainarea {
 	margin: auto auto ;
 	width:70%;
 	display: flex;
     flex-direction: row; 
+    min-height: 500px
 }
 
 .desc {
 	background-color:white;
 	padding:20px;
 	margin:20px;
-
 }
 
  .myaccountlist2 {
@@ -85,14 +96,14 @@ height: 100px;
 
 
 .active a {
-	color:red;
+	color:#E90A43;
 	font-size: 1.2rem;
-	font-weight: 400;
+	font-weight: 500;
 }
 
 
 .active span {
-	background-color: red;
+	background-color: #E90A43;
 	float: right;
 	padding:10px 0 10px 0;
 	width: 3px;
@@ -103,15 +114,21 @@ height: 100px;
 
 
 .leftdesc {
-	max-height: 260px;
+	max-height: 180px;
 	margin-right: 10px;
 	overflow:hidden;
+	box-shadow: 0 7px 7px 0 rgba(0,0,0,0.3);
+	font-size: 1rem;
+	border-radius: 5px;
+
 
 }
 
 .rightdesc {
 	margin-left: 10px;
 	padding:50px;
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.3);
+	border-radius: 5px;
 	
 }
 
@@ -133,15 +150,68 @@ height: 100px;
 .nameinput::placeholder {
 	width: 100%;
 	color:gray;
-	font-size: 0.7rem;
 }
 
 .nameinput {
 	margin-bottom: 0.4rem;
 	width: 100%;
 	color:black;
-	font-size: 0.8rem;
+	font-size: 1rem;
+}
+
+
+.row input:not(.sub-button):not(.sub-button2):not(.sub-button3), .row textarea, .row select{
+	background-color: #eeeeee;
+	border:none;
+	padding:0.9rem;
+	border-radius: 3px;
+}
+
+
+
+
+
+.supportinput::placeholder {
+	width: 100%;
+	color:gray;
+}
+
+.supportinput {
+	width: 100%;
+	color:black;
+	font-size: 1rem;
 	padding:0.3rem;
+}
+
+
+.support-dropdown {
+	width:100%;
+	padding: 0.3rem;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.support-dropdown option {
+	cursor: pointer;
+}
+
+.support-message {
+	width: 100%;
+	min-height: 10rem;
+	color:black;
+	font-size: 1rem;
+	padding:0.3rem;
+
+}
+
+.support-message::placeholder {
+	color:gray;
+
+}
+
+
+.message-title2 {
+	margin-bottom:0.1rem;
 }
 
 .left-label {
@@ -149,16 +219,7 @@ height: 100px;
 
 }
 
-.sub-button {
-	background-color:red;
-	color:white;
-	width: 4.5rem;
-	height: 2rem;
-	font-size: 1rem;
-	font-weight: 500;
-	border:none;
-	cursor: pointer;
-}
+
 
 #female {
 	margin-left: 1rem;
@@ -209,6 +270,7 @@ height: 100px;
 
 .desc2 {
 	display: none;
+
 }
 
 .desc3 {
@@ -221,12 +283,100 @@ height: 100px;
 	margin-bottom: 0.4rem;
 }
 
-.add-card {
+
+.sub-button {
+  background-color: #E90A43;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 20px auto 0 auto;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sub-button:hover {
+  opacity: 0.9;
+  transform: scale(0.95);
+}
+
+.sub-button:active {
+  transform: scale(.92);
+}
+
+.sub-button2 {
+	background-color:#E90A43;
+	color:white;
+	width: 4.5rem;
+	height: 2rem;
+	font-size: 1rem;
+	font-weight: 500;
+	border:none;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+
+.sub-button2:hover {
+	opacity: 0.9;
+	transform: scale(0.95);
+}
+
+
+.sub-button3 {
+	background-color:#E90A43;
+	color:white;
+	width: 4.5rem;
+	height: 2rem;
+	font-size: 1rem;
+	font-weight: 500;
+	border:none;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+
+.sub-button3:hover {
+	opacity: 0.9;
+	transform: scale(1.03);
+}
+
+
+#add-card {
 	width:8rem;
 }
 
-
-
-.row2 {
-
+.ccard-name1 {
+	width: 45%;
+	float: left;
 }
+
+
+.ccard-name2 {
+	width: 45%;
+	float: right;
+}
+
+.ccard-num {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+.ccard-final-row {
+	  display: flex;
+      flex-direction: row; 
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 1rem;
+}
+
+.ccard-date {
+	width: 30%
+}
+
+.subject-issue {
+	margin-top: 3rem;
+}
+
+
+
