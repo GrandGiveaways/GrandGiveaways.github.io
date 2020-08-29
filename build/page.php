@@ -5,10 +5,10 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
      <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/header&footer.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-   
+
 
 
     <title>Grand Giveaways</title>
@@ -157,10 +157,10 @@
     </div>
 
 
-      <?php include('templates/footer.php') ?>  
+      <?php include('templates/footer.php') ?>
 
 
-  
+
 
 
 
@@ -178,7 +178,6 @@
 <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-database.js"></script>
 
-  <script type="text/javascript" src="js/tabs.js"></script>
  <script type="text/javascript" src="js/page.js"></script>
 
 
