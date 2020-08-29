@@ -12,7 +12,7 @@
     <?php include('templates/header.php') ?>
 
     <div class="center">
-      <div class="mainarea" style="margin-top:30px;">
+      <div class="mainarea" style="margin-bottom:30px;">
 
         <a href="page.php">
           <div class="card cleft">

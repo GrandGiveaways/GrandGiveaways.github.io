@@ -29,9 +29,11 @@ html body {
 
 }
 
-.navbar {
+.ggnavbar {
 	background-color:#E90A43;
-  height: 130px
+  height: 130px;
+  display: flex;
+  align-items: center;
 }
 
 .navlogo {
@@ -90,10 +92,7 @@ html body {
     }
 
     #footer2 {
-    	/*position: absolute;*/
-      bottom: 0;
       width: 100%;
-      height: 1rem;
       background-color:#E90A43;
     }
 
@@ -110,7 +109,7 @@ html body {
     .footer2 {
     	text-align: center;
     	font-size:.7rem;
-      margin: auto auto;
+      padding: 20px;
     }
 
     .footerparts {
