@@ -11,7 +11,7 @@
 <body>
 
 
-<?php include('templates/header.php') ?>	
+<?php include('templates/header.php') ?>
 
 
 <!-- BANNER -->
@@ -19,12 +19,12 @@
 	<div id="banner">
 		<div>
 			<p id="bannertitle" >Hussein Harajli</p>
-			<p id="bannerdesc">Member since Feb. 2017</p>			
+			<p id="bannerdesc">Member since Feb. 2017</p>
 		</div>
 
 	</div>
 	<div>
-		<img src="../images/profile.png" class="pic3">	
+		<img src="../images/profile.png" class="pic3">
 		<!-- <i class="loginBoxHeader material-icons">account_circle</i> -->
 	</div>
 </div>
@@ -95,7 +95,7 @@
 				<div class="col-6 ">
 					<form class="">
 						<input type="Date" name="" >
-						
+
 					</form>
 				</div>
 			</div>
@@ -157,7 +157,7 @@
 					<form class="">
 						<input type="submit" class="sub-button2 save-email" value="Save" >
 					</form>
-				
+
 				</div>
 			</div>
 			<!-- ONE ROW -->
@@ -211,7 +211,7 @@
 							</div>
 						</form>
 					</div>
-					
+
 				</div>
 			<!--ROW 3 -->
 		</div>
@@ -250,11 +250,11 @@
 						<input type="email" name="email" placeholder="Email Address" class="supportinput">
 					</form>
 				</div>
-		
+
 			</div>
 			<!-- ROW 2 -->
 
-		
+
 
 
 			<!--ROW 3 -->
@@ -274,7 +274,7 @@
 						</select>
 					</form>
 				</div>
-		
+
 			</div>
 			<!--ROW 3 -->
 
@@ -288,7 +288,7 @@
 						<textarea class="support-message" placeholder="Explain your Issue..."></textarea>
 					</form>
 				</div>
-		
+
 			</div>
 			<!--ROW 4 -->
 
@@ -303,7 +303,7 @@
 						<textarea class="support-message"></textarea>
 					</form>
 				</div>
-		
+
 			</div> -->
 			<!--ROW 4 -->
 
@@ -324,10 +324,10 @@
 	</div>
 	<!-- Third Group "Support" -->
 
-	
+
 	<!-- right -->
 
-	
+
 
 </div>
 <!-- Main Area -->
@@ -338,7 +338,7 @@
 
 
 
-	
+
   <script type="text/javascript" src="js/tabs.js"></script>
 
 </body>

@@ -26,8 +26,9 @@
           <div class="loginBox">
             <i class="loginBoxHeader material-icons">account_circle</i>
             <form id="loginForm">
-              <input class="loginInputText" type="text" name="email" value="" placeholder="Email" id="emailValue">
-              <input class="loginInputText" type="text" name="password" value="" placeholder="Password" id="passwordValue">
+              <input class="loginInputText" type="text" name="email" placeholder="Email" id="emailValue">
+              <input class="loginInputText" type="password" name="password" placeholder="Password" id="passwordValue">
+              <input class="loginInputText" type="password" name="password-repeat" placeholder="Repeat password" id="passwordValueRepeat">
               <input class="loginInputSubmit" type="submit" onclick="register();" value="Register">
             </form>
             <a href="login.php"><p class="switchLoginMethod">Already a user? Login here.</p></a>
