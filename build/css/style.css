@@ -487,3 +487,11 @@ body {
 .switchLoginMethod:hover {
   background-color: #e90a4314;
 }
+
+/* V2 */
+
+.hp_image {
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+}

@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/header&footer.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/header&footer.css">
     <title>Grand Giveaways</title>
   </head>
   <body style="background-color: #E90A43">
 
-    <?php include('templates/header.php') ?>
+    <?php include('templates/headerV2.php') ?>
 
     <div class="center">
       <div class="mainarea" style="margin-bottom:30px;">

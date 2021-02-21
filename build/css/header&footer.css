@@ -11,6 +11,20 @@ html body {
 }
 
 
+/* V2 */
+
+#v2_navbar {
+  padding: 50px;
+  display: flex;
+  align-items: center;
+}
+
+#v2_header_logo {
+  width: 100px;
+  float: left;
+}
+
+
 /*NAVBAR*/
 
  .redhead2 {
