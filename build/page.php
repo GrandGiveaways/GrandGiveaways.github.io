@@ -1,6 +1,3 @@
-<?php
-?>
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -56,32 +53,37 @@
 
           <div class="rightdesc">
 
-            <div class="emailform" id="emailformdiv">
-              <form id="emailformform">
-                <div class="emailaddress">
-                  <div class="emailiconformdiv"><img src="stuff/emailicon.png" class="emailiconform"></div>
-                  <input type="email" name="address" placeholder=" Please Enter Your Email" class="emailinputform" id="email">
-                </div>
-                <br>
-                <button type="submit" class="sub-btn">Submit</button>
-              </form>
-            </div>
-            <p id="congrats">Congrats!</p>
-
-<!-- Changes -->
-          <div class="container">
-             <img id="youtubeButton" class="SMicons" src="stuff/yt.png" onclick="moreEntries('youtubeButton');">
-             <img id="facebookButton" class="SMicons" src="stuff/facebook.png" onclick="moreEntries('facebookButton');">
-             <img id="instagramButton" class="SMicons" src="stuff/instagram.png" onclick="moreEntries('instagramButton');">
-             <img id="twitterButton" class="SMicons" src="stuff/twitter.png" onclick="moreEntries('twitterButton');">
-             <img id="tiktokButton" class="SMicons" src="stuff/tiktok.png" onclick="moreEntries('tiktokButton');">
-          </div>
-
-
-            <div class="entries">
-              <hr>
-             <p class="entriesText"><span id="numberOfEntries">11</span> Entries Remaining<p>
-              <hr>
+            <div class="pentriescontainer">
+              <div class="pentriesitem">
+                <img src="stuff/tiktok.png" class="pentriesimage">
+                <span class="pentriestext">Share on TikTok</span>
+                <button class="pentriesbutton">+1</button>
+              </div>
+              <div class="pentriesitem">
+                <img src="stuff/twitter.png" class="pentriesimage">
+                <span class="pentriestext">Share on Twitter</span>
+                <button class="pentriesbutton">+1</button>
+              </div>
+              <div class="pentriesitem">
+                <img src="stuff/facebook.png" class="pentriesimage">
+                <span class="pentriestext">Share on Facebook</span>
+                <button class="pentriesbutton">+1</button>
+              </div>
+              <div class="pentriesitem">
+                <img src="stuff/yt.png" class="pentriesimage">
+                <span class="pentriestext">Share on Youtube</span>
+                <button class="pentriesbutton">+1</button>
+              </div>
+              <div class="pentriesitem">
+                <img src="stuff/instagram.png" class="pentriesimage">
+                <span class="pentriestext">Share on Instagram</span>
+                <button class="pentriesbutton">+1</button>
+              </div>
+              <div class="pentriesitem">
+                <img src="stuff/play.png" class="pentriesimage">
+                <span class="pentriestext">Watch an ad</span>
+                <button class="pentriesbutton">+2</button>
+              </div>
             </div>
 
             <div class="container">

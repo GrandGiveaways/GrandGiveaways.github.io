@@ -495,3 +495,39 @@ body {
   height: 100vh;
   background-color: red;
 }
+
+.pentriescontainer {
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 3px #00000050;
+}
+
+.pentriesitem {
+  width: 100%;
+  background-color: #f9f9f9;
+  display: flex;
+  /* vertical-align: center; */
+  align-items: center;
+  padding: 10px;
+}
+
+.pentriesimage {
+  width: 50px;
+  padding: 0 10px;
+}
+
+.pentriestext {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.pentriesbutton {
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-left: auto;
+  order: 2;
+  padding: 5px 10px;
+}
