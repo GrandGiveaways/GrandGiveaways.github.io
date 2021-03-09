@@ -27,28 +27,27 @@
             <i class="loginBoxHeader material-icons">account_circle</i>
             <form action="includes/login.inc.php" method="post" id="loginForm">
               <input class="loginInputText" type="text" name="email" value="" placeholder="Email" id="emailValue">
-              <input class="loginInputText" type="password" name="password" value="" placeholder="Password" id="passwordValue">
-              <input class="loginInputSubmit" type="submit" onclick="login();" value="Login">
+              <input class="loginInputText" type="password" name="pwd" value="" placeholder="Password" id="passwordValue">
+              <input class="loginInputSubmit" type="submit" name="submit" value="Login">
               <a href="register.php"><p class="switchLoginMethod">Don't have an account? Register here.</p></a>
             </form>
+            <?php
+                if(isset($_GET["error"])) {
+                    if ($_GET["error"] == "emptyimput") {
+                        echo "<p>At least one field missing information</p>";
+                    }
+                    else if ($_GET["error"] == "wronglogin") {
+                        echo "<p>Username/Email or password entered is incorrect</p>";
+                    }
+
+                }
+                ?>
           </div>
         </div>
     </div>
 
 
     <?php include('templates/footer.php') ?>
-
-
-<!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-app.js"></script>
-
-<!-- TODO: Add SDKs for Firebase products that you want to use https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.9.2/firebase-analytics.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-database.js"></script>
-
-
-<script src="js/login.js" type="text/javascript"></script>
 
   </body>
 </html>

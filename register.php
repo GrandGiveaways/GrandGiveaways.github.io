@@ -25,11 +25,13 @@
         <div class="pagearea">
           <div class="loginBox">
             <i class="loginBoxHeader material-icons">account_circle</i>
-            <form id="loginForm">
-              <input class="loginInputText" type="text" name="email" placeholder="Email" id="emailValue">
-              <input class="loginInputText" type="password" name="password" placeholder="Password" id="passwordValue">
-              <input class="loginInputText" type="password" name="password-repeat" placeholder="Repeat password" id="passwordValueRepeat">
-              <input class="loginInputSubmit" type="submit" onclick="register();" value="Register">
+            <form id="loginForm" action="includes/signup.inc.php" method="post">
+              <input class="loginInputText" type="text" name="name" placeholder="Name">
+              <input class="loginInputText" type="text" name="email" placeholder="Email">
+              <input class="loginInputText" type="text" name="uid" placeholder="Username">
+              <input class="loginInputText" type="password" name="pwd" placeholder="Password">
+              <input class="loginInputText" type="password" name="pwdrepeat" placeholder="Repeat password">
+              <input class="loginInputSubmit" type="submit" name="submit" value="Register">
             </form>
             <a href="login.php"><p class="switchLoginMethod">Already a user? Login here.</p></a>
           </div>
