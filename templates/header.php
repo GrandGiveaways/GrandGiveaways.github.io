@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Grand Giveaways</title>
+    <title><?php echo $title; ?></title>
     <link rel="stylesheet" href="/style.css">
   </head>
   <body>
@@ -16,7 +16,7 @@
       <div class="header_right">
         <?php
         if (isset($_SESSION["username"])) {
-          echo "<a href='/account.php' class='header_user'>Hi " . $_SESSION["username"] . "!</a>";
+          echo "<a href='includes/logout.inc.php' class='header_user'>Hi " . $_SESSION["username"] . "!</a>";
         } else {
           echo <<< EOD
           <ul class="header_menu">

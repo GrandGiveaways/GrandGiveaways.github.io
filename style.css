@@ -1,6 +1,9 @@
 
 :root {
-    --theme:#da0050;
+    --theme: #da0050;
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #222222;
 }
 
 /* General */
@@ -43,7 +46,7 @@ a {
 }
 
 .header_right {
-  color: #fff;
+  color: var(--white);
   margin-left: auto;
   display: flex;
   align-items: center;
@@ -61,7 +64,7 @@ a {
 }
 
 .header_register:hover {
-  background-color: #000000;
+  background-color: var(--black);
 }
 
 .header_menu {
@@ -83,7 +86,7 @@ a {
 
 .footer {
   width: 100%;
-  color: #fff;
+  color: var(--white);
   background-color: var(--theme);
 }
 
@@ -94,6 +97,46 @@ a {
 .footer_cr {
   text-align: center;
   padding: 20px;
+}
+
+/* Page Header */
+
+.page_header {
+  background-color: var(--gray);
+  background-size: cover;
+  background-position-y: center;
+  float: left;
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+.page_header_overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: linear-gradient(to top, #00000060 0%, #00000030 100%);
+}
+
+.page_header_info {
+  left: 10%;
+  right: 10%;
+  bottom: 20%;
+  position: absolute;
+}
+
+.page_header_title {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.page_header_caption {
+  font-size: 20px;
+  color: var(--white);
 }
 
 /* Center */
@@ -111,7 +154,7 @@ a {
   display: flex;
   align-items: center;
   background-image: linear-gradient(180deg, var(--theme), #960339);
-  color: #fff;
+  color: var(--white);
 }
 
 .hp_front_title {

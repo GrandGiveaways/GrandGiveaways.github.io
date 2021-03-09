@@ -1,8 +1,11 @@
-<!-- <?php session_start();?> -->
+<?php
+  session_start();
+  $title = "Grand Giveaways";
+?>
 
 <?php
   $_GET['trans']=true;
-  include('templates/header.php');
+  include('/templates/header.php');
 ?>
 
 <section id="front" class="hp_front">
@@ -36,4 +39,6 @@
   </div>
 </section>
 
-<?php include('templates/footer.php') ?>
+<?php
+  include('/templates/footer.php')
+?>
