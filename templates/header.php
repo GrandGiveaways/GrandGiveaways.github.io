@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title><?php echo $title; ?></title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="/style.css">
   </head>
   <body>
