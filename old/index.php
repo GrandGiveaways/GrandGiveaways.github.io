@@ -11,14 +11,6 @@
 
     <?php include('templates/headerV2.php') ?>
 
-    <?php
-    if (isset($_SESSION["name"])) {
-        echo "<p>Hello there " . $_SESSION["name"] . "</p>";
-    } else {
-      echo "<p>:(</p>";
-    }
-     ?>
-
     <div class="center">
       <div class="mainarea" style="margin-bottom:30px;">
 

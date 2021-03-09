@@ -26,7 +26,7 @@
           <div class="loginBox">
             <i class="loginBoxHeader material-icons">account_circle</i>
             <form action="includes/login.inc.php" method="post" id="loginForm">
-              <input class="loginInputText" type="text" name="email" value="" placeholder="Email" id="emailValue">
+              <input class="loginInputText" type="text" name="uid" value="" placeholder="Email" id="emailValue">
               <input class="loginInputText" type="password" name="pwd" value="" placeholder="Password" id="passwordValue">
               <input class="loginInputSubmit" type="submit" name="submit" value="Login">
               <a href="register.php"><p class="switchLoginMethod">Don't have an account? Register here.</p></a>
