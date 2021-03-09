@@ -12,7 +12,7 @@
 
     <div class="header <?php if (isset($_GET['trans'])) { if ($_GET['trans'] === true) { echo "trans"; } } ?>">
       <div class="header_left">
-        <img class="header_logo" src="/resources/logo_white.svg">
+        <a href="/"><img class="header_logo" src="/resources/logo_white.svg"></a>
       </div>
       <div class="header_right">
         <?php

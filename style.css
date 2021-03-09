@@ -75,6 +75,9 @@ a {
   list-style-type: none;
   display: inline-block;
   margin: 0;
+}
+
+.header_menu_item_a {
   padding: 20px;
 }
 
@@ -168,7 +171,7 @@ a {
 }
 
 .page_content {
-  padding: 30px 0;
+  padding: 50px 0;
   display: inline-block;
   width: 100%;
 }
@@ -198,6 +201,7 @@ a {
   background-color: #eeeeee;
   border-radius: 5px;
   margin-bottom: 10px;
+  box-sizing: border-box;
 }
 
 .login_input_submit {
@@ -208,7 +212,7 @@ a {
   cursor: pointer;
   border-radius: 5px;
   margin: 20px auto 0 auto;
-  transition: all 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .login_input_submit:hover {
@@ -217,6 +221,10 @@ a {
 
 .login_input_submit:active {
   transform: scale(0.95);
+}
+
+.login_error_text {
+  margin-top: 10px;
 }
 
 .switch_login_method {
