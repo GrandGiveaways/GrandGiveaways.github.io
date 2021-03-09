@@ -1,0 +1,125 @@
+
+:root {
+    --theme:#da0050;
+}
+
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+
+.header {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  background-color: var(--theme);
+}
+
+.header.trans {
+  background-color: transparent;
+  position: absolute;
+}
+
+.header_left {
+}
+
+.header_right {
+  color: #fff;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.header_logo {
+  width: 100px;
+  float: left;
+}
+
+.header_register {
+  padding: 20px;
+  background-color: #00000047;
+  border-radius: 2em;
+}
+
+.header_register:hover {
+  background-color: #000000;
+}
+
+.header_menu {
+  margin-right: 30px;
+}
+
+.header_menu li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 20px;
+}
+
+.header_menu_item_a:hover {
+  opacity: 0.7;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  color: #fff;
+  background-color: var(--theme);
+}
+
+.footer_main {
+  padding: 30px 0;
+}
+
+.footer_cr {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Center */
+
+.center {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Home Page */
+
+.hp_front {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(180deg, var(--theme), #960339);
+  color: #fff;
+}
+
+.hp_front_title {
+  font-weight: 700;
+  font-size: 55px;
+}
+
+.hp_front_subtitle {
+  font-weight: 400;
+  font-size: 52px;
+}
