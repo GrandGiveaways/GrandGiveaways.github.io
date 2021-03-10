@@ -7,9 +7,6 @@
     <link rel="stylesheet" href="/style.css">
   </head>
   <body>
-
-
-
     <div class="header <?php if (isset($_GET['trans'])) { if ($_GET['trans'] === true) { echo "trans"; } } ?>">
       <div class="header_left">
         <a href="/"><img class="header_logo" src="/resources/logo_white.svg"></a>
@@ -19,15 +16,18 @@
         if (isset($_SESSION["username"])) {
           echo "<a href='includes/logout.inc.php' class='header_user'>Hi " . $_SESSION["username"] . "!</a>";
         } else {
-          echo <<< EOD
-          <ul class="header_menu">
-            <li class="header_menu_item"><a href="/" class="header_menu_item_a">Home</a></li>
-            <li class="header_menu_item"><a href="/influencers.php" class="header_menu_item_a">Influencers</a></li>
-            <li class="header_menu_item"><a href="/users.php" class="header_menu_item_a">Users</a></li>
-            <li class="header_menu_item"><a href="/login.php" class="header_menu_item_a">Log in</a></li>
-          </ul>
-          <a href="/register.php" class="header_register">Register</a>
-          EOD;
+          $urls = array(
+            'Home' => '/',
+            'Influencers' => '/influencers',
+            'Users' => '/users',
+            'Login' => '/login'
+          );
+          echo '<ul class="header_menu">';
+          foreach ($urls as $name => $url) {
+            echo '<li class="header_menu_item"><a class="header_menu_item_a" href="' . $url . '">' . $name . '</a></li>';
+          }
+          echo '</ul>';
+          echo '<a href="/register.php" class="header_register">Register</a>';
         }
         ?>
       </div>

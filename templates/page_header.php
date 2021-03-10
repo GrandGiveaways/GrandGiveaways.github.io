@@ -1,9 +1,9 @@
 <?php
   session_start();
-  include('header.php');
+  require_once 'templates/header.php';
 ?>
 
-<div class="page_header">
+<div class="page_header" <?php if (isset($cover)) { echo 'style="background-image: url(\'' . $cover . '\')"'; } ?>>
   <div class="center">
     <div class="page_header_overlay"></div>
     <div class="page_header_info">

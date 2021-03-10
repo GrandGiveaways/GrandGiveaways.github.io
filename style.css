@@ -59,7 +59,7 @@ a {
 
 .header_register {
   padding: 20px;
-  background-color: #00000047;
+  background-color: #0000002b;
   border-radius: 2em;
 }
 
@@ -168,10 +168,11 @@ a {
 .page_header_caption {
   font-size: 20px;
   color: var(--white);
+  opacity: 0.8;
 }
 
 .page_content {
-  padding: 50px 0;
+  padding: 100px 0;
   display: inline-block;
   width: 100%;
 }
@@ -191,7 +192,7 @@ a {
   margin-bottom: 30px;
   font-weight: bold;
   font-size: 120px;
-  color: #E90A43;
+  color: var(--theme);
 }
 
 .login_input_text {
@@ -205,14 +206,13 @@ a {
 }
 
 .login_input_submit {
-  background-color: #E90A43;
+  background-color: var(--theme);
   color: white;
   border: none;
   padding: 10px 40px;
   cursor: pointer;
   border-radius: 5px;
   margin: 20px auto 0 auto;
-  transition: opacity 0.3s ease-in-out;
 }
 
 .login_input_submit:hover {
@@ -229,7 +229,7 @@ a {
 
 .switch_login_method {
   font-size: 15px;
-  color: #E90A43;
+  color: var(--theme);
   border-radius: 8px;
   padding: 10px 15px;
   margin: 20px auto 0 auto;
@@ -239,4 +239,118 @@ a {
 
 .switch_login_method:hover {
   background-color: #e90a4314;
+}
+
+/* Giveaways */
+
+.g_left {
+  float: left;
+  width: 58%;
+}
+
+.g_left > *:not(:last-child),
+.g_right > *:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.g_right {
+  float: right;
+  width: 38%;
+}
+
+.g_author {
+  float: left;
+  width: 100%;
+}
+
+.g_author_image {
+  width: 75px;
+  height: 75px;
+  margin-right: 15px;
+  border-radius: 37.5px;
+  object-fit: cover;
+  float: left;
+}
+
+.g_author_details {
+  float: left;
+  padding: 12px 0;
+  box-sizing: border-box;
+}
+
+.g_author_name {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--black);
+}
+
+.g_author_desc {
+  font-size: 18px;
+  font-style: italic;
+  color: #AAAAAA;
+}
+
+.g_desc_text {
+  font-size: 20px;
+}
+
+.g_desc_text_ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.g_entries {
+  background-color: #da00500d;
+}
+
+.g_entries_row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.g_entries_icon {
+  width: 30px;
+  padding: 0 10px;
+}
+
+.g_entries_row:last-child > .g_entries_icon {
+  width: 20px;
+  padding: 0 15px;
+}
+
+.g_entries_name {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.g_entries_button {
+  background-color: var(--theme);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-left: auto;
+  padding: 5px 10px;
+}
+
+.g_expires {
+  display: flex;
+  align-items: center;
+}
+
+.g_expires_icon {
+  width: 30px;
+  margin-right: 15px;
+}
+
+.g_expires_text {
+  font-size: 25px;
+  font-weight: 600;
 }

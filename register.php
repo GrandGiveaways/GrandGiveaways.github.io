@@ -1,6 +1,6 @@
 <?php
   $title = "Register";
-  include('templates/page_header.php');
+  require_once 'templates/page_header.php';
 ?>
 
 <div class="login_box">
@@ -42,5 +42,5 @@
 </div>
 
 <?php
-  include('templates/page_footer.php');
+  require_once 'templates/page_footer.php';
 ?>

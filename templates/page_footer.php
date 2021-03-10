@@ -1,4 +1,4 @@
   </div>
 </div>
 
-<?php include('footer.php'); ?>
+<?php require_once 'templates/footer.php'; ?>

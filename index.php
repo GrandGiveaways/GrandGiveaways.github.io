@@ -5,7 +5,7 @@
 
 <?php
   $_GET['trans']=true;
-  include('templates/header.php');
+  require_once 'templates/header.php';
 ?>
 
 <section id="front" class="hp_front">
@@ -40,5 +40,5 @@
 </section>
 
 <?php
-  include('templates/footer.php')
+  require_once 'templates/footer.php';
 ?>
