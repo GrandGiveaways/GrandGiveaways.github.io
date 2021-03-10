@@ -19,7 +19,24 @@
                   'Users' => '/users',
                   'Login' => '/login',
                   'Register' => '/register',
+                  'My Account' => '/account',
                   'About' => '/about'
+                );
+                foreach ($urls as $name => $url) {
+                  echo '<li><a href="' . $url . '">' . $name .'</a></li>';
+                }
+                ?>
+              </ul>
+            </li>
+            <li>
+              <span class="footer_main_pages_title">Terms</span>
+              <ul>
+                <?php
+                $urls = array(
+                  'Terms' => '/terms',
+                  'Privacy Policy' => '/privacy',
+                  'Cookies Policy' => '/cookies',
+                  'Disclosures' => '/disclosures'
                 );
                 foreach ($urls as $name => $url) {
                   echo '<li><a href="' . $url . '">' . $name .'</a></li>';

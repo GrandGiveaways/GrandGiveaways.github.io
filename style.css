@@ -59,12 +59,15 @@ a {
 
 .header_register {
   padding: 20px;
-  background-color: #0000002b;
-  border-radius: 2em;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 3px solid var(--white);
+  font-weight: 600;
 }
 
 .header_register:hover {
-  background-color: var(--black);
+  background-color: var(--white);
+  color: var(--theme);
 }
 
 .header_menu {
@@ -101,7 +104,7 @@ a {
 
 .footer_main_login {
   width: 350px;
-  margin: 0 65px 0 0;
+  margin: 0 100px 0 0;
 }
 
 .footer_main_login_text {
@@ -135,6 +138,11 @@ a {
   opacity: 0.8;
 }
 
+.footer_main_pages {
+  column-count: 2;
+  flex-grow: 1;
+}
+
 .footer_main_pages,
 .footer_main_pages li ul {
   list-style: none;
@@ -149,14 +157,19 @@ a {
 
 .footer_main_pages li ul li {
   font-size: 15px;
-  padding: 10px 0;
+  padding: 5px 0;
+  opacity: 0.8;
+}
+
+.footer_main_pages li ul li:hover {
+  opacity: 1;
 }
 
 .footer_main_pages_title {
   font-size: 26px;
   font-weight: 600;
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .footer_bottom {
