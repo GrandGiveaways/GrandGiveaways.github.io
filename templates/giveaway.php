@@ -33,7 +33,7 @@
   </div>
   <div class="g_expires">
     <img class="g_expires_icon" src="resources/clock.svg">
-    <span class="g_expires_text">Expires in X days</span>
+    <span class="g_expires_text">Ending in X days</span>
   </div>
 </div>
 
