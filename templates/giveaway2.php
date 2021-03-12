@@ -1,7 +1,9 @@
 <?php
   require_once 'includes/dbh.inc.php';
   require_once 'includes/gg.inc.php';
+  require_once 'includes/inf.inc.php';
   $giveaway = guidExists($conn, $id);
+  $author = infuidExists($conn, $giveaway->author, $giveaway->author);
 
   $title = $giveaway->title;
   $caption = $giveaway->caption;
@@ -12,13 +14,13 @@
 
 <div class="g_left">
   <div class="g_author">
-    <img class="g_author_image" src="resources/giveaways/authors/<?php echo $giveaway->author; ?>.jpg">
+    <img class="g_author_image" src="resources/giveaways/authors/<?php echo $author->username; ?>.jpg">
     <div class="g_author_details">
-      <p class="g_author_name"><?php echo $giveaway->author; ?></p>
-      <p class="g_author_desc">Tech Influencer and Reviewer</p>
+      <p class="g_author_name"><?php echo $author->name; ?></p>
+      <p class="g_author_desc"><?php echo $author->description; ?></p>
     </div>
   </div>
-  <img class="g_image" src="resources/giveaways/images/<?php echo $gimage ?>">
+  <img class="g_image" src="resources/giveaways/images/<?php echo $giveaway->image ?>">
   <div class="g_desc">
     <?php echo $giveaway->description; ?>
   </div>
