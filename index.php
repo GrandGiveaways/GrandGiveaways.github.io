@@ -21,6 +21,19 @@
   </div>
 </section>
 
+<div class="center">
+<?php
+require_once 'includes/dbh.inc.php';
+$sql = "SELECT * FROM Giveaways;";
+if (!$result = $conn->query($sql)) {
+  die ('There was an error running query[' . $conn->error . ']');
+}
+while ($row = $result->fetch_assoc()) {
+  echo "<a href='g/" . $row["id"] . "'><div style='padding:40px;font-size:16px;border-radius:15px;background-color:#8000000d;margin:10px;width:100%;'>" . $row["title"] . "</div></a>";
+}
+?>
+</div>
+
 <section id="about" class="hp_body">
   <div class="center">
 

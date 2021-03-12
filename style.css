@@ -155,13 +155,14 @@ a {
   page-break-inside: avoid;
 }
 
-.footer_main_pages li ul li {
+.footer_main_pages li ul li a {
   font-size: 15px;
   padding: 5px 0;
   opacity: 0.8;
+  display: block;
 }
 
-.footer_main_pages li ul li:hover {
+.footer_main_pages li ul li a:hover {
   opacity: 1;
 }
 
@@ -387,11 +388,12 @@ a {
   color: #AAAAAA;
 }
 
-.g_author_desc p li {
+.g_desc p,
+.g_desc li {
   font-size: 20px;
 }
 
-.g_author_desc ul {
+.g_desc ul {
   display: block;
   list-style-type: disc;
   margin-block-start: 1em;

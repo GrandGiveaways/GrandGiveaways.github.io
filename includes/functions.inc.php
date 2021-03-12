@@ -52,14 +52,14 @@ function pwdMatch($pwd, $pwdRepeat) {
     return $result;
 }
 
-function uidExists($conn, $username, $email) {
+function uidExists($conn, $username) {
     $sql = "SELECT * FROM Users WHERE username = ? OR email = ?;";
     $stmt = mysqli_stmt_init($conn);
     if (!mysqli_stmt_prepare($stmt, $sql)) {
         header("location: ../register.php?error=stmtfailed");
         exit();
     }
-    mysqli_stmt_bind_param($stmt, "ss", $username, $email);
+    mysqli_stmt_bind_param($stmt, "ss", $username, $username);
     mysqli_stmt_execute($stmt);
 
     $resultData = mysqli_stmt_get_result($stmt);
@@ -107,7 +107,7 @@ function emptyInputLogin($username, $pwd) {
 }
 
 function loginUser($conn, $username, $pwd) {
-    $uidExists = uidExists($conn, $username, $username);
+    $uidExists = uidExists($conn, $username);
 
     if ($uidExists === false) {
         header("location: ../login.php?error=wronglogin");

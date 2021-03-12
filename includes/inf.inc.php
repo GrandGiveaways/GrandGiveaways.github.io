@@ -14,14 +14,14 @@ class Influencer {
   }
 }
 
-function infuidExists($conn, $username, $email) {
+function infuidExists($conn, $username) {
   $sql = "SELECT * FROM Influencers WHERE username = ? OR email = ?;";
   $stmt = mysqli_stmt_init($conn);
   if (!mysqli_stmt_prepare($stmt, $sql)) {
     header("location: ../?error=stmtfailed");
     exit();
   }
-  mysqli_stmt_bind_param($stmt, "ss", $username, $email);
+  mysqli_stmt_bind_param($stmt, "ss", $username, $username);
   mysqli_stmt_execute($stmt);
 
   $resultData = mysqli_stmt_get_result($stmt);

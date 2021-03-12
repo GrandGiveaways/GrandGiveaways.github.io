@@ -4,7 +4,7 @@
   require_once 'includes/inf.inc.php';
   $id = $_GET["id"];
   $giveaway = guidExists($conn, $id);
-  $author = infuidExists($conn, $giveaway->author, $giveaway->author);
+  $author = infuidExists($conn, $giveaway->author);
 
   $title = $giveaway->title;
   $caption = $giveaway->caption;
@@ -23,7 +23,9 @@
       <p class="g_author_desc"><?php echo $author->description; ?></p>
     </div>
   </div>
+  <?php if ($giveaway->image): ?>
   <img class="g_image" src="/resources/giveaways/images/<?php echo $giveaway->image ?>">
+  <?php endif; ?>
   <div class="g_desc">
     <?php echo $giveaway->description; ?>
   </div>
