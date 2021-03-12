@@ -34,18 +34,30 @@
 <div class="g_right">
   <div class="g_entries">
     <?php
-      if (isset($_SESSION["username"])) {
-        require_once 'includes/entry_types.inc.php';
-        foreach ($entry_types as $type) {
-          echo '<div class="g_entries_row">';
-          echo '<img class="g_entries_icon" src="/resources/' . $type->icon . '">';
-          echo '<span class="g_entries_name">' . $type->name . '</span>';
-          echo '<button class="g_entries_button">+' . $type->entry_count . '</button>';
-          echo '</div>';
-        }
-      } else {
-        echo "<p>meowdodo</p>";
+    if (isset($_SESSION["username"])) {
+      require_once 'includes/entry_types.inc.php';
+
+      $link = urlencode("http://grand-giveaway/g/" . $id);
+
+      $entry_types = [
+        new EntryType("Share on TikTok", "tiktok.svg", 1, "#"),
+        new EntryType("Share on Twitter", "twitter.svg", 1, "http://twitter.com/share?text=" . urlencode("Check out the awesome " . $giveaway->title . " giveaway by " . $author->name . " on Grand Giveaways") . '+-&amp;url=' . $link),
+        new EntryType("Share on Facebook", "facebook.svg", 1, "https://www.facebook.com/sharer/sharer.php?u=" . $link),
+        new EntryType("Share on Instagram", "instagram.svg", 1, "#"),
+        new EntryType("Share on Youtube", "youtube.svg", 1, "#"),
+        new EntryType("Watch an ad", "play.svg", 2, "#")
+      ];
+
+      foreach ($entry_types as $type) {
+        echo '<div class="g_entries_row">';
+        echo '<img class="g_entries_icon" src="/resources/' . $type->icon . '">';
+        echo '<span class="g_entries_name">' . $type->name . '</span>';
+        echo '<a class="g_entries_button" target="_blank" href="' . $type->link . '">+' . $type->entry_count . '</a>';
+        echo '</div>';
       }
+    } else {
+      echo "<p>meowdodo</p>";
+    }
     ?>
   </div>
   <div class="g_expires">

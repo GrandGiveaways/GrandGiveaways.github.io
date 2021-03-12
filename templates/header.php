@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/style.css">
   </head>
   <body>
-    <div class="header <?php if (isset($_GET['trans'])) { if ($_GET['trans'] === true) { echo "trans"; } } ?>">
+    <div class="header<?php if (isset($_GET['trans'])) { if ($_GET['trans'] === true) { echo " trans"; } } ?>">
       <div class="header_left">
         <a href="/"><img class="header_logo" src="/resources/logo_white.svg"></a>
       </div>
