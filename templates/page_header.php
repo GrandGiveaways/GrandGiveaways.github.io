@@ -3,7 +3,7 @@
   require_once 'templates/header.php';
 ?>
 
-<div class="page_header" <?php if (isset($banner)) { echo 'style="background-image: url(resources/giveaways/banners/' . $banner . ')"'; } ?>>
+<div class="page_header" <?php if (isset($banner)) { echo 'style="background-image: url(/resources/giveaways/banners/' . $banner . ')"'; } ?>>
   <div class="center">
     <div class="page_header_overlay"></div>
     <div class="page_header_info">

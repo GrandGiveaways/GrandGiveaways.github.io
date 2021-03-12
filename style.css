@@ -387,11 +387,11 @@ a {
   color: #AAAAAA;
 }
 
-.g_desc_text {
+.g_author_desc p li {
   font-size: 20px;
 }
 
-.g_desc_text_ul {
+.g_author_desc ul {
   display: block;
   list-style-type: disc;
   margin-block-start: 1em;

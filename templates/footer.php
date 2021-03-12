@@ -62,7 +62,7 @@
             </li>
         </div>
         <div class="footer_bottom">
-          <img class="footer_logo" src="resources/logo_white.svg">
+          <img class="footer_logo" src="/resources/logo_white.svg">
           <p class="footer_cr">© 2021 Grand Giveaways</p>
         </div>
       </div>
