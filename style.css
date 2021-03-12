@@ -139,7 +139,7 @@ a {
 }
 
 .footer_main_pages {
-  column-count: 2;
+  column-count: 3;
   flex-grow: 1;
 }
 

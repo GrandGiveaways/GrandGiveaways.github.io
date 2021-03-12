@@ -129,7 +129,3 @@ function loginUser($conn, $username, $pwd) {
         exit();
     }
 }
-
-function isLoggedIn() {
-  return (isset($_SESSION["name"]));
-}

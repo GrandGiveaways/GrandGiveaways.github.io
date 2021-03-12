@@ -1,16 +1,16 @@
 <?php
 
 class EntryType {
-    public $name;
-    public $icon;
-    public $entry_count;
-    // public $action;
+  public $name;
+  public $icon;
+  public $entry_count;
+  // public $action;
 
-    public function __construct($name, $icon, $entry_count){
-        $this->name = $name;
-        $this->icon = $icon;
-        $this->entry_count = $entry_count;
-    }
+  public function __construct($name, $icon, $entry_count){
+    $this->name = $name;
+    $this->icon = $icon;
+    $this->entry_count = $entry_count;
+  }
 }
 
 $entry_types = [

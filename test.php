@@ -2,7 +2,7 @@
 
 $title = "The iPhone 11 256GB + AirPods & Charging Pad Giveaway";
 $caption = "Enter for Your Chance to Win an iPhone 11 256GB, AirPods, and a Special Edition Belkin Wireless Charging Pad";
-$cover = "tresources/iphone.jpg";
+$banner = "tresources/iphone.jpg";
 
 $author = "marques";
 $authorimage = "mkbhd.jpg";

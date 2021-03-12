@@ -44,10 +44,26 @@
                 ?>
               </ul>
             </li>
+            <li>
+              <span class="footer_main_pages_title">Contact</span>
+              <ul>
+                <?php
+                $urls = array(
+                  'Email' => '#',
+                  'Instagram' => '#',
+                  'Facebook' => '#',
+                  'Call us' => '#'
+                );
+                foreach ($urls as $name => $url) {
+                  echo '<li><a href="' . $url . '">' . $name .'</a></li>';
+                }
+                ?>
+              </ul>
+            </li>
         </div>
         <div class="footer_bottom">
           <img class="footer_logo" src="resources/logo_white.svg">
-          <p class="footer_cr">© Grand Giveaways 2021</p>
+          <p class="footer_cr">© 2021 Grand Giveaways</p>
         </div>
       </div>
     </div>
