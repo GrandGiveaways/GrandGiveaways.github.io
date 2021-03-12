@@ -12,6 +12,8 @@
   require_once 'templates/page_header.php';
 ?>
 
+<?php if ($giveaway): ?>
+
 <div class="g_left">
   <div class="g_author">
     <img class="g_author_image" src="resources/giveaways/authors/<?php echo $author->username; ?>.jpg">
@@ -53,5 +55,11 @@
     ?> days</span>
   </div>
 </div>
+
+<?php else: ?>
+
+<p>:(</p>
+
+<?php endif; ?>
 
 <?php require_once 'templates/page_footer.php'; ?>
