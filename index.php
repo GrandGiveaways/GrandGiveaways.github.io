@@ -1,11 +1,12 @@
 <?php
   session_start();
   $title = "Grand Giveaways";
-?>
 
-<?php
-  $_GET['trans']=true;
+  $_GET['trans'] = true;
   require_once 'templates/header.php';
+
+  require_once 'includes/dbh.inc.php';
+  require_once 'includes/enter.inc.php';
 ?>
 
 <section id="front" class="hp_front">
