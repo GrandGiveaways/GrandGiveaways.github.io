@@ -12,7 +12,7 @@
     <input class="login_input_text" type="password" name="pwd" placeholder="Password">
     <input class="login_input_text" type="password" name="pwdrepeat" placeholder="Repeat password">
     <input class="login_input_submit" type="submit" name="submit" value="Register">
-    <a href="/login.php"><p class="switch_login_method">Already a user? Login here.</p></a>
+    <a href="/login"><p class="switch_login_method">Already a user? Login here.</p></a>
   </form>
   <?php
   if(isset($_GET["error"])) {

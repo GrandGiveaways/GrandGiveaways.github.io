@@ -9,7 +9,7 @@
     <input class="login_input_text" type="text" name="uid" value="" placeholder="Email/Username">
     <input class="login_input_text" type="password" name="pwd" value="" placeholder="Password">
     <input class="login_input_submit" type="submit" name="submit" value="Login">
-    <a href="/register.php"><p class="switch_login_method">Don't have an account? Register here.</p></a>
+    <a href="/register"><p class="switch_login_method">Don't have an account? Register here.</p></a>
   </form>
   <?php
   if(isset($_GET["error"])) {
