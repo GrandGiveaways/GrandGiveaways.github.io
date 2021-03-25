@@ -13,3 +13,15 @@ class EntryType {
     $this->link = $link;
   }
 }
+
+$link = urlencode("http://grand-giveaway/g/" . $id);
+
+$entry_types = [
+  new EntryType("Share on Twitter", "twitter.svg", 1, "http://twitter.com/share?text=" . urlencode("Check out the awesome " . $giveaway->title . " giveaway by " . $author->name . " on Grand Giveaways") . '+-&amp;url=' . $link),
+  new EntryType("Share on Facebook", "facebook.svg", 1, "https://www.facebook.com/sharer/sharer.php?u=" . $link),
+  new EntryType("Visit us on Instagram", "instagram.svg", 1, "#"),
+  new EntryType("Visit us on Youtube", "youtube.svg", 1, "#"),
+  new EntryType("Visit us on TikTok", "tiktok.svg", 1, "#"),
+  new EntryType("Enter", "play.svg", 2, "#")
+  //new EntryType("Watch an ad", "play.svg", 2, "#")
+];

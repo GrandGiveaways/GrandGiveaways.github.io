@@ -438,6 +438,14 @@ a {
   padding: 5px 10px;
 }
 
+.g_entries_login_message {
+  padding: 20px;
+}
+
+.g_entries_login_message a {
+  color: var(--theme);
+}
+
 .g_expires {
   display: flex;
   align-items: center;
@@ -466,7 +474,7 @@ a {
     float: left;
     padding-left: 5%;
     padding-right: 50px;
-    
+
 }
 .giveawayImg {
     width: 400px;
@@ -520,7 +528,7 @@ a {
 	left: 50%;
 	top: 90%;
 	transform: rotate(-225deg);
-	
+
 }
 .arrow::before {
 		content: '';
