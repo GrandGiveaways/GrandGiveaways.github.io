@@ -37,7 +37,7 @@
     if (isset($_SESSION["username"])) {
       require_once 'includes/entry_types.inc.php';
 
-      $link = urlencode("http://grand-giveaway/g/" . $giveaway->$id);
+      $link = urlencode("http://grand-giveaway/g/" . $id);
 
       $entry_types = [
         new EntryType("Share on Twitter", "twitter.svg", 1, "http://twitter.com/share?text=" . urlencode("Check out the awesome " . $giveaway->title . " giveaway by " . $author->name . " on Grand Giveaways") . '+-&amp;url=' . $link),
@@ -45,7 +45,8 @@
         new EntryType("Visit us on Instagram", "instagram.svg", 1, "#"),
         new EntryType("Visit us on Youtube", "youtube.svg", 1, "#"),
         new EntryType("Visit us on TikTok", "tiktok.svg", 1, "#"),
-        new EntryType("Watch an ad", "play.svg", 2, "#")
+        new EntryType("Enter", "play.svg", 2, "#")
+        //new EntryType("Watch an ad", "play.svg", 2, "#")
       ];
 
       foreach ($entry_types as $type) {

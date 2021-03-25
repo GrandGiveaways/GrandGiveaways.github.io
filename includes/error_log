@@ -1,0 +1,16 @@
+[15-Mar-2021 06:57:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/mhnbpurs6fa9/public_html/includes/functions.inc.php:65
+Stack trace:
+#0 /home/mhnbpurs6fa9/public_html/includes/functions.inc.php(110): uidExists(Object(mysqli), 'momoss')
+#1 /home/mhnbpurs6fa9/public_html/includes/login.inc.php(17): loginUser(Object(mysqli), 'momoss', 'dd')
+#2 {main}
+  thrown in /home/mhnbpurs6fa9/public_html/includes/functions.inc.php on line 65
+[15-Mar-2021 06:57:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/mhnbpurs6fa9/public_html/includes/functions.inc.php:65
+Stack trace:
+#0 /home/mhnbpurs6fa9/public_html/includes/signup.inc.php(33): uidExists(Object(mysqli), 'foirjere', 'weewew@fsfe.com')
+#1 {main}
+  thrown in /home/mhnbpurs6fa9/public_html/includes/functions.inc.php on line 65
+[15-Mar-2021 06:59:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_stmt_get_result() in /home/mhnbpurs6fa9/public_html/includes/functions.inc.php:65
+Stack trace:
+#0 /home/mhnbpurs6fa9/public_html/includes/signup.inc.php(33): uidExists(Object(mysqli), 'dodo', 'meow@momo.com')
+#1 {main}
+  thrown in /home/mhnbpurs6fa9/public_html/includes/functions.inc.php on line 65

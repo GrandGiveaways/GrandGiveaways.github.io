@@ -452,3 +452,106 @@ a {
   font-size: 25px;
   font-weight: 600;
 }
+.influencerGif {
+    width: 300px;
+    height: 300px;
+    float: right;
+    padding-left: 50px;
+    padding-right: 5%;
+    position: relative;
+}
+.bouncingGift {
+    width: 400px;
+    height: 400px;
+    float: left;
+    padding-left: 5%;
+    padding-right: 50px;
+    
+}
+.giveawayImg {
+    width: 400px;
+    height: 270px;
+    float: left;
+    padding-left: 5%;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.homeinfo {
+    text-align: left;
+    font-size: 25px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    border-color: var(--theme);
+    border-style: solid;
+    border-width: 10px;
+    border-left: 10px;
+    border-bottom: 10px;
+    border-right: 10px;
+    box-shadow: 5px 5px 5px grey;
+}
+.heading {
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: 800;
+    padding-left: 15px;
+}
+.description {
+    font-size: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#influencers {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#users {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.arrow {
+	width: 6vmin;
+	height: 6vmin;
+	box-sizing: border-box;
+	position: absolute;
+	left: 50%;
+	top: 90%;
+	transform: rotate(-225deg);
+	
+}
+.arrow::before {
+		content: '';
+		width: 100%;
+		height: 100%;
+		border-width: .8vmin .8vmin 0 0;
+		border-style: solid;
+		border-color: #fafafa;
+		transition: .2s ease;
+		display: block;
+		transform-origin: 100% 0;
+}
+.arrow:after {
+		content: '';
+		float: left;
+		position: relative;
+		top: -100%;
+		width: 100%;
+		height: 100%;
+		border-width: 0 .8vmin 0 0;
+		border-style: solid;
+		border-color: #fafafa;
+		transform-origin: 100% 0;
+		transition:.2s ease;
+}
+.arrow:hover::after {
+		transform: rotate(45deg);
+		border-color: #fafafa;
+		height: 120%;
+}
+.arrow:hover::before {
+		border-color: #fafafa;
+		transform: scale(.8);
+}

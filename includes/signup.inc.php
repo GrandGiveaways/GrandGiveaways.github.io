@@ -11,27 +11,27 @@ if (isset($_POST["submit"])) {
     require_once 'functions.inc.php';
     // error handling below
     if(emptyInputSignup($name, $email, $username, $pwd, $pwdRepeat) !== false) {
-        header("location: ../register?error=emptyinput");
+        header("location: ../register.php?error=emptyinput");
         exit();
     }
 
     if(invalidUid($username) !== false) {
-        header("location: ../register?error=invalidUid");
+        header("location: ../register.php?error=invalidUid");
         exit();
     }
 
     if(invalidEmail($email) !== false) {
-        header("location: ../register?error=invalidEmail");
+        header("location: ../register.php?error=invalidEmail");
         exit();
     }
 
     if(pwdMatch($pwd, $pwdRepeat) !== false) {
-        header("location: ../register?error=passwordsdontmatch");
+        header("location: ../register.php?error=passwordsdontmatch");
         exit();
     }
 
     if(uidExists($conn, $username, $email) !== false) {
-        header("location: ../register?error=usernametaken");
+        header("location: ../register.php?error=usernametaken");
         exit();
     }
 
@@ -39,6 +39,6 @@ if (isset($_POST["submit"])) {
 
 }
 else {
-    header("location: ../register");
+    header("location: ../signup.php");
     exit();
 }
