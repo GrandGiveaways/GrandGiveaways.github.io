@@ -37,11 +37,15 @@
     if (isset($_SESSION["username"])) {
       require_once 'includes/entry_types.inc.php';
 
-      foreach ($entry_types as $type) {
+      foreach ($entry_types as $type_id => $type) {
         echo '<div class="g_entries_row">';
         echo '<img class="g_entries_icon" src="/resources/' . $type->icon . '">';
         echo '<span class="g_entries_name">' . $type->name . '</span>';
-        echo '<a class="g_entries_button" target="_blank" href="' . $type->link . '">+' . $type->entry_count . '</a>';
+        echo '<form action="/includes/enter.inc.php" method="post" style="display: contents">';
+        echo '<input type="hidden" name="id_entry" value="' . $type_id . '">';
+        echo '<input type="hidden" name="id_giveaway" value="' . $giveaway->id . '">';
+        echo '<input class="g_entries_button" type="submit" name="submit" value="+' . $type->entry_count . '">';
+        echo '</form>';
         echo '</div>';
       }
     } else {

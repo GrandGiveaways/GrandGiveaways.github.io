@@ -1,6 +1,25 @@
 <?php
 
+require_once "dbh.inc.php";
+require_once "entry_types.inc.php";
 
+$giveaway_id = $_POST["id_giveaway"];
+$entry_id = $_POST["id_entry"];
+$entry_type = $entry_types[$entry_id];
+
+$sql = mysqli_query($conn, "SELECT * FROM Giveaways WHERE id = '" . $giveaway_id . "'");
+$row = mysqli_fetch_assoc($sql);
+$txx = $row["entries"];
+if (!$txx) {
+  $txx = $_SESSION["username"];
+} else {
+  $txx = $txx . $_SESSION["username"];
+}
+
+$sql = "UPDATE Giveaways SET entries = '" . $txx . "' WHERE id = '" . $giveaway_id . "'";
+mysqli_query($conn, $sql);
+
+header("location: /g/" . $giveaway_id);
 
 // // Associative Array
 // $users_arr = array("yssyogesh" => 2, "bsonarika" => 1, "vijay" => 11);
