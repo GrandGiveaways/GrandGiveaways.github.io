@@ -11,11 +11,6 @@
   $caption = $giveaway->caption;
   $banner = $giveaway->banner;
 
-  $now = new DateTime();
-  $g_release = new DateTime($giveaway->release_date);
-  $g_expiration = new DateTime($giveaway->expiration_date);
-  $g_passed = $g_expiration < $now;
-
   require_once 'templates/page_header.php';
 
   $user = uidExists($conn, $_SESSION["username"]);
@@ -58,10 +53,23 @@
         echo '<input type="hidden" name="id_entry" value="' . $entry_type->id . '">';
         echo '<input type="hidden" name="id_giveaway" value="' . $giveaway->id . '">';
         echo '<input class="g_entries_button" type="submit" name="submit" value="';
-        if ($is_done) { echo "✔"; }
-        else { echo '+' . $c_type->entry_count; }
-        echo '" onClick="window.open(\'' . $entry_type->link . '\', \'_blank\');""';
-        if ($is_done) { echo " disabled"; }
+
+        if ($is_done) {
+          echo '✔';
+        } else {
+          echo '+' . $c_type->entry_count;
+        }
+
+        echo '"';
+
+        if ($entry_type->id != "def") {
+          echo ' onClick="window.open(\'' . $entry_type->link . '\', \'_blank\');"';
+        }
+
+        if ($is_done) {
+          echo " disabled";
+        }
+
         echo '>';
         echo '</form>';
         echo '</div>';
@@ -74,16 +82,12 @@
   <?php endif; ?>
   <div class="g_expires">
     <img class="g_expires_icon" src="/resources/clock.svg">
-    <span class="g_expires_text">
+    <span id="countdown_text" class="g_expires_text">Ending in...</span>
       <?php
-      if (!$g_passed) {
-        $diff = $g_expiration->diff($now);
-        echo "Ending in " . $diff->format("%a") . " days";
-      } else {
-        echo "Already passed";
-      }
+        echo '<script>var countDownDate = new Date("' . $giveaway->expiration_date . '").getTime();</script>';
+        echo '<script type="text/javascript" src="/js/countdown.js"></script>';
       ?>
-    </span>
+    <!-- </span> -->
   </div>
 </div>
 
