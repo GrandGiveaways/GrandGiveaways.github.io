@@ -508,6 +508,9 @@ a {
     border-right: 10px;
     box-shadow: 5px 5px 5px grey;
 }
+.influencers {
+  box-shadow: -5px 5px 5px grey;
+}
 .heading {
     margin-top: 50px;
     font-size: 50px;
