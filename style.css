@@ -390,6 +390,10 @@ a {
   color: #AAAAAA;
 }
 
+.g_image {
+  width: 100%;
+}
+
 .g_desc p,
 .g_desc li {
   font-size: 20px;
