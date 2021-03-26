@@ -42,7 +42,7 @@
   <?php if (!$g_passed): ?>
   <div class="g_entries">
     <?php
-    if (isset($_SESSION["username"])) {
+    if ($user) {
       require_once 'includes/entry_types.inc.php';
 
       foreach ($entry_types as $entry_type) {
@@ -54,7 +54,7 @@
         echo '<input type="hidden" name="username" value="' . $_SESSION["username"] . '">';
         echo '<input type="hidden" name="id_entry" value="' . $entry_type->id . '">';
         echo '<input type="hidden" name="id_giveaway" value="' . $giveaway->id . '">';
-        echo '<input class="g_entries_button" type="submit" name="submit" value="+' . $c_type->entry_count . '">';
+        echo '<input class="g_entries_button" type="submit" name="submit" value="+' . $c_type->entry_count . '" onClick="window.open(\'' . $entry_type->link . '\', \'_blank\');"">';
         echo '</form>';
         echo '</div>';
       }
