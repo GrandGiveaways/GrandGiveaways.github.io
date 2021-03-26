@@ -6,7 +6,6 @@
 
   $giveaway = guidExists($conn, $_GET["id"]);
   $author = infuidExists($conn, $giveaway->author);
-  $user = uidExists($conn, $_SESSION["username"]);
 
   $title = $giveaway->title;
   $caption = $giveaway->caption;
@@ -18,6 +17,8 @@
   $g_passed = $g_expiration < $now;
 
   require_once 'templates/page_header.php';
+
+  $user = uidExists($conn, $_SESSION["username"]);
 ?>
 
 <?php if ($giveaway): ?>
@@ -42,12 +43,13 @@
   <?php if (!$g_passed): ?>
   <div class="g_entries">
     <?php
-    echo "<p>" . $user . "</p>";
     if ($user) {
       require_once 'includes/entry_types.inc.php';
 
+      $c_entries = unserialize($user["entries"]);
       foreach ($entry_types as $entry_type) {
         $c_type = $social_media_types[$entry_type->id];
+        $is_done = $c_entries[$giveaway->id][$entry_type->id] == true;
         echo '<div class="g_entries_row">';
         echo '<img class="g_entries_icon" src="/resources/' . $c_type->icon . '">';
         echo '<span class="g_entries_name">' . $c_type->name . '</span>';
@@ -55,7 +57,12 @@
         echo '<input type="hidden" name="username" value="' . $_SESSION["username"] . '">';
         echo '<input type="hidden" name="id_entry" value="' . $entry_type->id . '">';
         echo '<input type="hidden" name="id_giveaway" value="' . $giveaway->id . '">';
-        echo '<input class="g_entries_button" type="submit" name="submit" value="+' . $c_type->entry_count . '" onClick="window.open(\'' . $entry_type->link . '\', \'_blank\');"">';
+        echo '<input class="g_entries_button" type="submit" name="submit" value="';
+        if ($is_done) { echo "✔"; }
+        else { echo '+' . $c_type->entry_count; }
+        echo '" onClick="window.open(\'' . $entry_type->link . '\', \'_blank\');""';
+        if ($is_done) { echo " disabled"; }
+        echo '>';
         echo '</form>';
         echo '</div>';
       }

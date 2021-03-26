@@ -444,6 +444,11 @@ a {
   padding: 5px 10px;
 }
 
+.g_entries_button[disabled] {
+  opacity: 0.4;
+  content: "m";
+}
+
 .g_entries_login_message {
   padding: 20px;
 }
