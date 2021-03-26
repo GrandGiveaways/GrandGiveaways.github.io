@@ -3,16 +3,49 @@
 require_once "dbh.inc.php";
 require_once "entry_types.inc.php";
 require_once 'gg.inc.php';
+require_once 'functions.inc.php';
 
 $username = $_POST["username"];
 $giveaway_id = $_POST["id_giveaway"];
 $entry_id = $_POST["id_entry"];
 $entry_type = $social_media_types[$entry_id];
 
+
+////// USER /////////////////////////////////////
+
+$user = uidExists($conn, $username);
+$txx = unserialize($user["entries"]);
+
+if ($txx == NULL || isset($txx[$giveaway_id]) == NULL) {
+  $entries_array = array();
+  foreach ($social_media_types as $key => $value) {
+    $entries_array[$key] = false;
+  }
+  $entries_array[$entry_id] = true;
+
+  if ($txx == NULL) {
+    $txx = array();
+  }
+  $txx[$giveaway_id] = $entries_array;
+} else {
+  if ($txx[$giveaway_id][$entry_id] == true) {
+    header("location: /g/" . $giveaway_id . "?error=dup");
+  } else {
+    $txx[$giveaway_id][$entry_id] = true;
+  }
+}
+
+$txx = serialize($txx);
+$sql = "UPDATE Users SET entries = '" . $txx . "' WHERE username = '" . $username . "'";
+mysqli_query($conn, $sql);
+
+
+////// GIVEAWAY //////////////////////////////////
+
 $giveaway = guidExists($conn, $giveaway_id);
 $txx = $giveaway->entries;
 if ($txx == NULL) {
-  $txx = "dpdp";//$_SESSION["username"];
+  $txx = $username;
 } else {
   $txx = $txx . ", " . $username;
 }
@@ -21,6 +54,14 @@ $sql = "UPDATE Giveaways SET entries = '" . $txx . "' WHERE id = '" . $giveaway_
 mysqli_query($conn, $sql);
 
 header("location: /g/" . $giveaway_id);
+
+
+
+
+
+
+
+
 
 // // Associative Array
 // $users_arr = array("yssyogesh" => 2, "bsonarika" => 1, "vijay" => 11);

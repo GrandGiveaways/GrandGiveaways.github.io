@@ -2,9 +2,11 @@
   require_once 'includes/dbh.inc.php';
   require_once 'includes/gg.inc.php';
   require_once 'includes/inf.inc.php';
+  require_once 'includes/functions.inc.php';
   $id = $_GET["id"];
   $giveaway = guidExists($conn, $id);
   $author = infuidExists($conn, $giveaway->author);
+  $user = uidExists($conn, $username);
 
   $title = $giveaway->title;
   $caption = $giveaway->caption;
