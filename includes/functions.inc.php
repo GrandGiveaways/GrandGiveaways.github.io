@@ -67,8 +67,7 @@ function uidExists($conn, $username) {
     // if returns false, we have desired signup behavior
     if ($row = mysqli_fetch_assoc($resultData)) {
         return $row;
-    }
-    else {
+    } else {
         $result = false;
         return $result;
     }

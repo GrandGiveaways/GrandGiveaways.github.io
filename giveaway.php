@@ -3,10 +3,10 @@
   require_once 'includes/gg.inc.php';
   require_once 'includes/inf.inc.php';
   require_once 'includes/functions.inc.php';
-  $id = $_GET["id"];
-  $giveaway = guidExists($conn, $id);
+
+  $giveaway = guidExists($conn, $_GET["id"]);
   $author = infuidExists($conn, $giveaway->author);
-  $user = uidExists($conn, $username);
+  $user = uidExists($conn, $_SESSION["username"]);
 
   $title = $giveaway->title;
   $caption = $giveaway->caption;
@@ -42,6 +42,7 @@
   <?php if (!$g_passed): ?>
   <div class="g_entries">
     <?php
+    echo "<p>" . $user . "</p>";
     if ($user) {
       require_once 'includes/entry_types.inc.php';
 
