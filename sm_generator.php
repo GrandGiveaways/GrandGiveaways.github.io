@@ -8,12 +8,8 @@ require_once 'templates/page_header.php';
 
 $myarr = array();
 $myarr[] = [
-  "id" => "ins",
-  "link" => "instagram.com"
-];
-$myarr[] = [
-  "id" => "fb",
-  "link" => "facebook.com"
+  "id" => "lin",
+  "link" => "https://www.linkedin.com/in/ebfretz/"
 ];
 
 echo serialize($myarr);

@@ -18,29 +18,6 @@
   require_once 'templates/page_header.php';
 ?>
 
-<?php
-$myarr = array();
-$myarr[] = [
-  "id" => "ins",
-  "link" => "instagram.com"
-];
-$myarr[] = [
-  "id" => "fb",
-  "link" => "facebook.com"
-];
-
-// Display
-if (is_array($myarr) || is_object($myarr)) {
-  foreach ($myarr as $mt) {
-    echo "<div>";
-    foreach ($mt as $arr_username => $arr_count) {
-      echo "<div>" . $arr_username . ": " . $arr_count . "</div>";
-    }
-    echo "</div>";
-  }
-}
-?>
-
 <?php if ($giveaway): ?>
 
 <div class="g_left">
