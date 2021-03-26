@@ -30,6 +30,7 @@ if ($txx == NULL || isset($txx[$giveaway_id]) == NULL) {
 } else {
   if ($txx[$giveaway_id][$entry_id] == true) {
     header("location: /g/" . $giveaway_id . "?error=dup");
+    exit();
   } else {
     $txx[$giveaway_id][$entry_id] = true;
   }
@@ -47,13 +48,16 @@ $txx = $giveaway->entries;
 if ($txx == NULL) {
   $txx = $username;
 } else {
-  $txx = $txx . ", " . $username;
+  for ($i=0; $i < $entry_type->entry_count; $i++) {
+    $txx = $txx . ", " . $username;
+  }
 }
 
 $sql = "UPDATE Giveaways SET entries = '" . $txx . "' WHERE id = '" . $giveaway_id . "'";
 mysqli_query($conn, $sql);
 
 header("location: /g/" . $giveaway_id);
+exit();
 
 
 
