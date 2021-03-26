@@ -37,6 +37,7 @@
 </div>
 
 <div class="g_right">
+  <?php if (!$g_passed): ?>
   <div class="g_entries">
     <?php
     if (isset($_SESSION["username"])) {
@@ -58,6 +59,7 @@
     }
     ?>
   </div>
+  <?php endif; ?>
   <div class="g_expires">
     <img class="g_expires_icon" src="/resources/clock.svg">
     <span class="g_expires_text">
@@ -66,7 +68,7 @@
         $diff = $g_expiration->diff($now);
         echo "Ending in " . $diff->format("%a") . " days";
       } else {
-        echo "Already done :(";
+        echo "Already passed";
       }
       ?>
     </span>
