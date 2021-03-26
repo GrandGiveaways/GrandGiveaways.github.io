@@ -14,3 +14,167 @@ Stack trace:
 #0 /home/mhnbpurs6fa9/public_html/includes/signup.inc.php(33): uidExists(Object(mysqli), 'dodo', 'meow@momo.com')
 #1 {main}
   thrown in /home/mhnbpurs6fa9/public_html/includes/functions.inc.php on line 65
+[25-Mar-2021 04:35:39 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[25-Mar-2021 04:35:39 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[25-Mar-2021 04:35:39 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[25-Mar-2021 04:35:39 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[25-Mar-2021 04:35:39 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[25-Mar-2021 04:35:39 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[25-Mar-2021 04:35:39 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[25-Mar-2021 04:35:40 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[25-Mar-2021 04:35:40 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[25-Mar-2021 04:35:40 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[25-Mar-2021 04:35:40 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[25-Mar-2021 04:35:40 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[25-Mar-2021 04:35:40 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[25-Mar-2021 04:35:40 UTC] PHP Notice:  Undefined index: id_giveaway in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 6
+[25-Mar-2021 04:35:40 UTC] PHP Notice:  Undefined index: id_entry in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 7
+[25-Mar-2021 04:35:40 UTC] PHP Notice:  Undefined index:  in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 8
+[25-Mar-2021 04:35:40 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:28:35 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:28:35 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:28:35 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:35 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:35 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:35 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:35 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:28:36 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:28:36 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:28:36 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:36 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:36 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:36 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:36 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:28:37 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:28:37 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:28:37 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:37 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:37 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:37 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:37 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:28:38 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:28:38 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:28:38 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:38 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:38 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:38 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:38 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:28:39 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:28:39 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:28:39 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:39 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:39 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:39 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:39 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:28:40 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:28:40 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:28:40 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:40 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:40 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:40 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:40 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:28:40 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:28:40 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:28:40 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:40 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:40 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:40 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:40 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:28:41 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:28:41 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:28:41 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:41 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:41 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:41 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:28:41 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:35:32 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:32 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:32 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:32 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:32 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:32 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:32 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:35:32 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:32 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:32 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:32 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:32 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:32 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:32 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:35:34 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:34 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:34 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:34 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:34 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:34 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:34 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:35:34 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:34 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:34 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:34 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:34 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:34 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:34 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:35:35 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:35 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:35 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:35 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:35 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:35 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:35 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:35:36 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:36 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:36 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:36 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:36 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:36 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:36 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:35:36 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:36 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:36 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:36 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:36 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:36 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:36 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:35:37 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:37 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:37 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:37 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:37 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:37 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:37 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:35:38 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:38 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:35:38 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:38 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:38 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:38 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:35:38 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:49:19 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:49:19 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:49:19 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:49:19 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:49:19 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:49:19 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:49:19 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:49:23 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:49:23 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:49:23 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:49:23 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:49:23 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:49:23 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:49:23 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:49:25 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:49:25 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:49:25 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:49:25 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:49:25 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:49:25 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:49:25 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14
+[26-Mar-2021 00:49:27 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:49:27 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 17
+[26-Mar-2021 00:49:27 UTC] PHP Notice:  Undefined variable: giveaway in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:49:27 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:49:27 UTC] PHP Notice:  Undefined variable: author in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:49:27 UTC] PHP Notice:  Trying to get property 'name' of non-object in /home/mhnbpurs6fa9/public_html/includes/entry_types.inc.php on line 20
+[26-Mar-2021 00:49:27 UTC] PHP Notice:  Undefined variable: _SESSION in /home/mhnbpurs6fa9/public_html/includes/enter.inc.php on line 14

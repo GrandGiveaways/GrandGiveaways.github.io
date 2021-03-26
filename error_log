@@ -321,3 +321,56 @@
 [25-Mar-2021 02:45:17 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
 [25-Mar-2021 02:45:17 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
 [25-Mar-2021 02:45:21 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[25-Mar-2021 04:35:23 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[25-Mar-2021 04:35:26 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[25-Mar-2021 04:35:41 UTC] PHP Notice:  Trying to get property 'author' of non-object in /home/mhnbpurs6fa9/public_html/giveaway.php on line 7
+[25-Mar-2021 04:35:41 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/giveaway.php on line 9
+[25-Mar-2021 04:35:41 UTC] PHP Notice:  Trying to get property 'caption' of non-object in /home/mhnbpurs6fa9/public_html/giveaway.php on line 10
+[25-Mar-2021 04:35:41 UTC] PHP Notice:  Trying to get property 'banner' of non-object in /home/mhnbpurs6fa9/public_html/giveaway.php on line 11
+[25-Mar-2021 06:32:45 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[25-Mar-2021 10:37:57 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[25-Mar-2021 22:29:36 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[25-Mar-2021 22:29:36 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[25-Mar-2021 22:29:36 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[25-Mar-2021 22:29:37 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:13:32 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:13:32 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:14:47 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:17:00 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:17:36 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:17:38 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:17:55 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:17:56 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:17:58 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:18:00 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:18:00 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:18:37 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:18:45 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:18:53 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:19:56 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:20:19 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:20:22 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:21:49 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:22:00 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:22:01 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:22:13 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:22:20 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:22:32 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:22:33 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:22:34 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:23:46 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:23:49 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:23:56 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:24:22 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:35:53 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:35:56 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:36:00 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:41:22 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:41:23 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:41:23 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:41:28 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 00:50:30 UTC] PHP Notice:  Undefined variable: caption in /home/mhnbpurs6fa9/public_html/templates/page_header.php on line 11
+[26-Mar-2021 01:50:42 UTC] PHP Notice:  Trying to get property 'author' of non-object in /home/mhnbpurs6fa9/public_html/giveaway.php on line 7
+[26-Mar-2021 01:50:42 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/mhnbpurs6fa9/public_html/giveaway.php on line 9
+[26-Mar-2021 01:50:42 UTC] PHP Notice:  Trying to get property 'caption' of non-object in /home/mhnbpurs6fa9/public_html/giveaway.php on line 10
+[26-Mar-2021 01:50:42 UTC] PHP Notice:  Trying to get property 'banner' of non-object in /home/mhnbpurs6fa9/public_html/giveaway.php on line 11

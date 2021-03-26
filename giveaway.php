@@ -10,6 +10,11 @@
   $caption = $giveaway->caption;
   $banner = $giveaway->banner;
 
+  $now = new DateTime();
+  $g_release = new DateTime($giveaway->release_date);
+  $g_expiration = new DateTime($giveaway->expiration_date);
+  $g_passed = $g_expiration < $now;
+
   require_once 'templates/page_header.php';
 ?>
 
@@ -55,12 +60,16 @@
   </div>
   <div class="g_expires">
     <img class="g_expires_icon" src="/resources/clock.svg">
-    <span class="g_expires_text">Ending in <?php
-      $earlier = new DateTime($giveaway->release_date);
-      $later = new DateTime($giveaway->expiration_date);
-      $diff = $later->diff($earlier)->format("%a");
-      echo $diff;
-    ?> days</span>
+    <span class="g_expires_text">
+      <?php
+      if (!$g_passed) {
+        $diff = $g_expiration->diff($now);
+        echo "Ending in " . $diff->format("%a") . " days";
+      } else {
+        echo "Already done :(";
+      }
+      ?>
+    </span>
   </div>
 </div>
 
