@@ -49,6 +49,7 @@
         echo '<img class="g_entries_icon" src="/resources/' . $c_type->icon . '">';
         echo '<span class="g_entries_name">' . $c_type->name . '</span>';
         echo '<form action="/includes/enter.inc.php" method="post" style="display: contents">';
+        echo '<input type="hidden" name="username" value="' . $_SESSION["username"] . '">';
         echo '<input type="hidden" name="id_entry" value="' . $entry_type->id . '">';
         echo '<input type="hidden" name="id_giveaway" value="' . $giveaway->id . '">';
         echo '<input class="g_entries_button" type="submit" name="submit" value="+' . $c_type->entry_count . '">';

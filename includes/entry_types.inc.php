@@ -13,12 +13,12 @@ class SocialMediaTypes {
 }
 
 $social_media_types = [
-  "twt" => new SocialMediaTypes("Visit us on Twitter", "twitter.svg", 1),
-  "fb" => new SocialMediaTypes("Visit us on Facebook", "facebook.svg", 1),
-  "ins" => new SocialMediaTypes("Visit us on Instagram", "instagram.svg", 1),
-  "yt" => new SocialMediaTypes("Visit us on Youtube", "youtube.svg", 1),
-  "tik" => new SocialMediaTypes("Visit us on TikTok", "tiktok.svg", 1),
-  "lin" => new SocialMediaTypes("Visit us on LinkedIn", "linkedin.svg", 1),
+  "twt" => new SocialMediaTypes("Visit " . $author->name . " on Twitter", "twitter.svg", 1),
+  "fb" => new SocialMediaTypes("Visit " . $author->name . " on Facebook", "facebook.svg", 1),
+  "ins" => new SocialMediaTypes("Visit " . $author->name . " on Instagram", "instagram.svg", 1),
+  "yt" => new SocialMediaTypes("Visit " . $author->name . " on Youtube", "youtube.svg", 1),
+  "tik" => new SocialMediaTypes("Visit " . $author->name . " on TikTok", "tiktok.svg", 1),
+  "lin" => new SocialMediaTypes("Visit " . $author->name . " on LinkedIn", "linkedin.svg", 1),
   "gg" => new SocialMediaTypes("Visit Grand Giveaways on Instagram", "instagram.svg", 1, "https://instagram.com/"),
   "def" => new SocialMediaTypes("Enter", "play.svg", 2)
 ];

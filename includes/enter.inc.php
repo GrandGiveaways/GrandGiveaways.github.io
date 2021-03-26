@@ -2,18 +2,19 @@
 
 require_once "dbh.inc.php";
 require_once "entry_types.inc.php";
+require_once 'gg.inc.php';
 
+$username = $_POST["username"];
 $giveaway_id = $_POST["id_giveaway"];
 $entry_id = $_POST["id_entry"];
-$entry_type = $entry_types[$entry_id];
+$entry_type = $social_media_types[$entry_id];
 
-$sql = mysqli_query($conn, "SELECT * FROM Giveaways WHERE id = '" . $giveaway_id . "'");
-$row = mysqli_fetch_assoc($sql);
-$txx = $row["entries"];
-if (!$txx) {
-  $txx = $_SESSION["username"];
+$giveaway = guidExists($conn, $giveaway_id);
+$txx = $giveaway->entries;
+if ($txx == NULL) {
+  $txx = "dpdp";//$_SESSION["username"];
 } else {
-  $txx = $txx . $_SESSION["username"];
+  $txx = $txx . ", " . $username;
 }
 
 $sql = "UPDATE Giveaways SET entries = '" . $txx . "' WHERE id = '" . $giveaway_id . "'";
