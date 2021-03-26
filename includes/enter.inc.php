@@ -34,13 +34,13 @@ header("location: /g/" . $giveaway_id);
 // // Read record
 // $sql = mysqli_query($conn, "SELECT * FROM Giveaways");
 // while($row = mysqli_fetch_assoc($sql)) {
-//   // Unserialize
-//   $arr_unserialize = unserialize($row['entries']);
-//
-//   // Display
-//   if (is_array($arr_unserialize) || is_object($arr_unserialize)) {
-//     foreach ($arr_unserialize as $arr_username => $arr_count) {
-//       echo "<div>" . $arr_username . ": " . $arr_count . "</div>";
-//     }
-//   }
+  // // Unserialize
+  // $arr_unserialize = unserialize($row['entries']);
+  //
+  // // Display
+  // if (is_array($arr_unserialize) || is_object($arr_unserialize)) {
+  //   foreach ($arr_unserialize as $arr_username => $arr_count) {
+  //     echo "<div>" . $arr_username . ": " . $arr_count . "</div>";
+  //   }
+  // }
 // }

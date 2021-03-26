@@ -5,12 +5,14 @@ class Influencer {
   public $email;
   public $name;
   public $description;
+  public $social_media;
 
-  public function __construct($username, $email, $name, $description) {
+  public function __construct($username, $email, $name, $description, $social_media) {
     $this->username = $username;
     $this->email = $email;
     $this->name = $name;
     $this->description = $description;
+    $this->social_media = $social_media;
   }
 }
 
@@ -28,7 +30,7 @@ function infuidExists($conn, $username) {
   // if returns true, we have desired login behavior
   // if returns false, we have desired signup behavior
   if ($row = mysqli_fetch_assoc($resultData)) {
-    return new Influencer($row["username"], $row["email"], $row["name"], $row["description"]);
+    return new Influencer($row["username"], $row["email"], $row["name"], $row["description"], $row["social_media"]);
   }
   else {
     $result = false;

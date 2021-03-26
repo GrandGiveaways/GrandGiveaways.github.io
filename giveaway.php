@@ -18,6 +18,29 @@
   require_once 'templates/page_header.php';
 ?>
 
+<?php
+$myarr = array();
+$myarr[] = [
+  "id" => "ins",
+  "link" => "instagram.com"
+];
+$myarr[] = [
+  "id" => "fb",
+  "link" => "facebook.com"
+];
+
+// Display
+if (is_array($myarr) || is_object($myarr)) {
+  foreach ($myarr as $mt) {
+    echo "<div>";
+    foreach ($mt as $arr_username => $arr_count) {
+      echo "<div>" . $arr_username . ": " . $arr_count . "</div>";
+    }
+    echo "</div>";
+  }
+}
+?>
+
 <?php if ($giveaway): ?>
 
 <div class="g_left">
@@ -43,14 +66,15 @@
     if (isset($_SESSION["username"])) {
       require_once 'includes/entry_types.inc.php';
 
-      foreach ($entry_types as $type_id => $type) {
+      foreach ($entry_types as $entry_type) {
+        $c_type = $social_media_types[$entry_type->id];
         echo '<div class="g_entries_row">';
-        echo '<img class="g_entries_icon" src="/resources/' . $type->icon . '">';
-        echo '<span class="g_entries_name">' . $type->name . '</span>';
+        echo '<img class="g_entries_icon" src="/resources/' . $c_type->icon . '">';
+        echo '<span class="g_entries_name">' . $c_type->name . '</span>';
         echo '<form action="/includes/enter.inc.php" method="post" style="display: contents">';
-        echo '<input type="hidden" name="id_entry" value="' . $type_id . '">';
+        echo '<input type="hidden" name="id_entry" value="' . $entry_type->id . '">';
         echo '<input type="hidden" name="id_giveaway" value="' . $giveaway->id . '">';
-        echo '<input class="g_entries_button" type="submit" name="submit" value="+' . $type->entry_count . '">';
+        echo '<input class="g_entries_button" type="submit" name="submit" value="+' . $c_type->entry_count . '">';
         echo '</form>';
         echo '</div>';
       }
