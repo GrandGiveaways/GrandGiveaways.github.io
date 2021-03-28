@@ -67,6 +67,7 @@
         echo '</div>';
       }
     } else {
+      $_SESSION['redirectURL'] = $_SERVER['REQUEST_URI'];
       echo "<p class='g_entries_login_message'>Please <a href='/login'>login</a> or <a href='/register'>register</a> to enter</p>";
     }
     ?>
