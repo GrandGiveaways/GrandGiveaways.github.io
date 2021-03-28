@@ -88,12 +88,7 @@
     <img class="g_expires_icon" src="/resources/clock.svg">
     <span id="countdown_text" class="g_expires_text">Ending in...</span>
       <?php
-        echo `
-        <script>
-          var countDownDate = new Date("'` . $giveaway->expiration_date . `'").getTime();
-          var releaseDate = new Date("'` . $giveaway->release_date . `'").getTime();
-        </script>
-        `;
+        echo '<script>var countDownDate = new Date("' . $giveaway->expiration_date . '").getTime(); var releaseDate = new Date("' . $giveaway->release_date . '").getTime();</script>';
         echo '<script type="text/javascript" src="/js/countdown.js"></script>';
       ?>
     <!-- </span> -->
