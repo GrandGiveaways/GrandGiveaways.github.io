@@ -24,8 +24,8 @@
       <div class="header_right">
         <?php
         if (isset($_SESSION["username"])) {
-          echo "<p class='header_menu_item'>Hi " . $_SESSION["username"] . "!</p>";
-          echo "<a href='/includes/logout.inc.php' class='header_menu_item'>Log Out</a>";
+          echo "<p class='header_menu_item_a'>Hi " . $_SESSION["username"] . "!</p>";
+          echo "<a href='/includes/logout.inc.php' class='header_menu_item_a'>Log Out</a>";
         } else {
           $urls = array(
             'Home' => '/',
