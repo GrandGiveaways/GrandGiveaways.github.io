@@ -36,5 +36,5 @@ if (isset($_POST["submit"])) {
     }
 
     createUser($conn, $name, $email, $username, $pwd);
-    loginUser($conn, $username);
+    //loginUser($conn, $username);
 }
