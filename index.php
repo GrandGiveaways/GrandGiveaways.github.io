@@ -57,7 +57,7 @@ while ($row = $result->fetch_assoc()) {
 
 <section id="influencers" class="hp_body">
   <div class="center">
-      <div class="homeinfo influencers">
+      <div class="homeinfo">
         <img class="influencerGif" src="/resources/Influencers.gif">
         <div class="heading">
             <h3><b>What We Do For Influencers</b></h3>
