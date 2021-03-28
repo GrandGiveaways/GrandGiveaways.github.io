@@ -90,8 +90,8 @@
       <?php
         echo `
         <script>
-          var countDownDate = new Date("' . $giveaway->expiration_date . '").getTime();
-          var releaseDate = new Date("' . $giveaway->release_date . '").getTime();
+          var countDownDate = new Date("'` . $giveaway->expiration_date . `'").getTime();
+          var releaseDate = new Date("'` . $giveaway->release_date . `'").getTime();
         </script>
         `;
         echo '<script type="text/javascript" src="/js/countdown.js"></script>';
