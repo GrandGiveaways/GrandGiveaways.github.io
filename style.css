@@ -76,7 +76,7 @@ a {
   margin-right: 30px;
 }
 
-.header_menu li {
+.header_menu_item {
   list-style-type: none;
   display: inline-block;
   margin: 0;

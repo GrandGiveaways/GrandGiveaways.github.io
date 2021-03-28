@@ -5,7 +5,7 @@
     <title><?php echo $title; ?></title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="/style.css">
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z35JC3QW68"></script>
     <script>
@@ -24,7 +24,8 @@
       <div class="header_right">
         <?php
         if (isset($_SESSION["username"])) {
-          echo "<p>Hi " . $_SESSION["username"] . "!      </p><a href='/includes/logout.inc.php' class='header_user'>Log Out</a>";
+          echo "<p class='header_menu_item'>Hi " . $_SESSION["username"] . "!</p>";
+          echo "<a href='/includes/logout.inc.php' class='header_menu_item'>Log Out</a>";
         } else {
           $urls = array(
             'Home' => '/',
