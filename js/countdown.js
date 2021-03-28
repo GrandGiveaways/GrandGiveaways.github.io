@@ -19,7 +19,7 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("countdown_text").innerHTML = "Already passed";
-  } else if (releaseDate - now < 0) {
+  } else if (now - releaseDate < 0) {
     clearInterval(x);
     document.getElementById("countdown_text").innerHTML = "Not released yet";
   }
