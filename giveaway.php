@@ -11,6 +11,10 @@
   $caption = $giveaway->caption;
   $banner = $giveaway->banner;
 
+  $now = new DateTime();
+  $g_release = new DateTime($giveaway->release_date);
+  $g_expiration = new DateTime($giveaway->expiration_date);
+
   require_once 'templates/page_header.php';
 
   $user = uidExists($conn, $_SESSION["username"]);
@@ -35,7 +39,7 @@
 </div>
 
 <div class="g_right">
-  <?php if (!$g_passed): ?>
+  <?php if ($g_expiration > $now || $g_release < $now): ?>
   <div class="g_entries">
     <?php
     if ($user) {
@@ -84,7 +88,12 @@
     <img class="g_expires_icon" src="/resources/clock.svg">
     <span id="countdown_text" class="g_expires_text">Ending in...</span>
       <?php
-        echo '<script>var countDownDate = new Date("' . $giveaway->expiration_date . '").getTime();</script>';
+        echo `
+        <script>
+          var countDownDate = new Date("' . $giveaway->expiration_date . '").getTime();
+          var releaseDate = new Date("' . $giveaway->release_date . '").getTime();
+        </script>
+        `;
         echo '<script type="text/javascript" src="/js/countdown.js"></script>';
       ?>
     <!-- </span> -->
