@@ -88,12 +88,9 @@ function createUser($conn, $name, $email, $username, $pwd) {
     mysqli_stmt_bind_param($stmt, "ssss", $name, $email, $username, $hashedPwd);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
-    if (isset($_SESSION['redirectURL'])) {
-        header("location: " . $_SESSION['redirectURL']);
-    }
-    else {
-        header("location: ../register.php?error=none");
-    }
+
+    header("location: ../register.php?error=none");
+    
     exit();
 }
 
@@ -130,7 +127,7 @@ function loginUser($conn, $username, $pwd) {
         $_SESSION["name"] = $uidExists["name"];
         $_SESSION["username"] = $uidExists["username"];
         if (isset($_SESSION['redirectURL'])) {
-            header("location:" . $_SESSION['redirectURL']);
+            header("location: " . $_SESSION['redirectURL']);
         }
         else {
             header("location: /");
