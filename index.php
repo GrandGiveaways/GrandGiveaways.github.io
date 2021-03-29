@@ -12,7 +12,7 @@
 <section id="front" class="hp_front">
   <div class="center">
     <h1 class="hp_front_title">
-        Welcome to Grand Giveaways.
+        Welcome to Grand Giveaway.
     </h1>
     <h2 class="hp_front_subtitle">
       A platform to win big prizes
