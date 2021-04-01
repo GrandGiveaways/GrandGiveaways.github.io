@@ -1,6 +1,6 @@
 <?php
   $title = "Terms and Conditions";
-  $additional = '''EOD
+  $additional = <<<EOD
   <style>
     p {
       margin-bottom: 20px;
@@ -12,7 +12,7 @@
       margin: 30px 0 20px 0;
     }
   </style>
-  EOD''';
+  EOD;
   require_once 'templates/page_header.php';
 ?>
 
