@@ -88,10 +88,10 @@ function createUser($conn, $name, $email, $username, $pwd) {
     mysqli_stmt_bind_param($stmt, "ssss", $name, $email, $username, $hashedPwd);
     mysqli_stmt_execute($stmt);
     mysqli_stmt_close($stmt);
-    
+
     loginUser($conn, $username, $pwd);
     //header("location: ../register.php?error=none");
-    
+
     exit();
 }
 

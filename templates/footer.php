@@ -34,9 +34,7 @@
                 <?php
                 $urls = array(
                   'Terms' => '/terms',
-                  'Privacy Policy' => '/privacy',
-                  'Cookies Policy' => '/cookies',
-                  'Disclosures' => '/disclosures'
+                  'Privacy Policy' => '/privacy'
                 );
                 foreach ($urls as $name => $url) {
                   echo '<li><a href="' . $url . '">' . $name .'</a></li>';
@@ -49,10 +47,10 @@
               <ul>
                 <?php
                 $urls = array(
-                  'Email' => '#',
-                  'Instagram' => '#',
-                  'Facebook' => '#',
-                  'Call us' => '#'
+                  'Email' => 'mailto:grand.give@gmail.com',
+                  'Instagram' => 'https://www.instagram.com/the_grand_giveaway_/',
+                  'Facebook' => 'https://www.facebook.com/the.grandgiveaway',
+                  'TikTok' => 'https://www.tiktok.com/@grand_giveaway_/'
                 );
                 foreach ($urls as $name => $url) {
                   echo '<li><a href="' . $url . '">' . $name .'</a></li>';
