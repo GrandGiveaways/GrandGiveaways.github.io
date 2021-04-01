@@ -14,7 +14,8 @@
       gtag('js', new Date());
 
       gtag('config', 'G-Z35JC3QW68');
-</script>
+    </script>
+    <?php echo $additional; ?>
   </head>
   <body>
     <div class="header<?php if (isset($_GET['trans'])) { if ($_GET['trans'] === true) { echo " trans"; } } ?>">

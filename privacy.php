@@ -1,5 +1,24 @@
 <?php
   $title = "Privacy Policy";
+  $additional = '''EOD
+  <style>
+    p {
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+      margin: 30px 0 20px 0;
+    }
+
+    h3 {
+      font-size: 18px;
+      font-weight: 500;
+      margin: 10px 0 5px 0;
+    }
+  </style>
+  EOD''';
   require_once 'templates/page_header.php';
 ?>
 
