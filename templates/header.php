@@ -5,7 +5,7 @@
     <title><?php echo $title; ?></title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="/style.css">
-
+    <link rel="shortcut icon" type="image/svg" href="/resources/logo_white.svg">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z35JC3QW68"></script>
     <script>

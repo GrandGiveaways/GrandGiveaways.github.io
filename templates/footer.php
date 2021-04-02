@@ -2,7 +2,7 @@
       <div class="center">
         <div class="footer_main">
           <div class="footer_main_login">
-            <p class="footer_main_login_text">You've come to the right place. We can help you grow tremendously by setting up giveaways of your products and services for FREE!</p>
+            <p class="footer_main_login_text">If you are an influencer, you've come to the right place. Grand Giveaway can help you grow tremendously by setting up giveaways of your products and services for FREE!</p>
             <?php if (!isset($_SESSION["username"])): ?>
               <a class="footer_main_rs" href="/register">Register</a>
               <a class="footer_main_rs inverted" href="/login">Login</a>
