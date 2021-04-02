@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="/style.css">
     <link rel="shortcut icon" type="image/svg" href="/resources/logo_white.svg">
+    
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z35JC3QW68"></script>
     <script>
@@ -16,7 +17,11 @@
       gtag('config', 'G-Z35JC3QW68');
     </script>
     <?php echo $additional; ?>
+    
+    <!-- Google AdSense -->
+    <script data-ad-client="ca-pub-1314468233933209" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   </head>
+  
   <body>
     <div class="header<?php if (isset($_GET['trans'])) { if ($_GET['trans'] === true) { echo " trans"; } } ?>">
       <div class="header_left">
