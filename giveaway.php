@@ -39,7 +39,7 @@
 </div>
 
 <div class="g_right">
-  <?php if ($g_expiration > $now || $g_release < $now): ?>
+  <?php if ($g_expiration > $now && $g_release < $now): ?>
   <div class="g_entries">
     <?php
     if ($user) {
