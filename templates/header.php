@@ -26,24 +26,26 @@
         <a href="/"><img class="header_logo" src="/resources/logo_white.svg"></a>
       </div>
       <div class="header_right">
-        <?php
-        if (isset($_SESSION["username"])) {
-          echo "<p class='header_menu_item_a'>Hi " . $_SESSION["username"] . "!</p>";
-          echo "<a href='/includes/logout.inc.php' class='header_menu_item_a'>Log Out</a>";
-        } else {
-          $urls = array(
-            'Home' => '/',
-            'Influencers' => '/influencers',
-            'Users' => '/users',
-            'Login' => '/login'
-          );
-          echo '<ul class="header_menu">';
-          foreach ($urls as $name => $url) {
-            echo '<li class="header_menu_item"><a class="header_menu_item_a" href="' . $url . '">' . $name . '</a></li>';
+        <div class="header_right_list">
+          <?php
+          if (isset($_SESSION["username"])) {
+            echo "<p class='header_menu_item_a'>Hi " . $_SESSION["username"] . "!</p>";
+            echo "<a href='/includes/logout.inc.php' class='header_menu_item_a'>Log Out</a>";
+          } else {
+            $urls = array(
+              'Home' => '/',
+              'Influencers' => '/influencers',
+              'Users' => '/users',
+              'Login' => '/login'
+            );
+            echo '<ul class="header_menu">';
+            foreach ($urls as $name => $url) {
+              echo '<li class="header_menu_item"><a class="header_menu_item_a" href="' . $url . '">' . $name . '</a></li>';
+            }
+            echo '</ul>';
+            echo '<a href="/register.php" class="header_register">Register</a>';
           }
-          echo '</ul>';
-          echo '<a href="/register.php" class="header_register">Register</a>';
-        }
-        ?>
+          ?>
+        </div>
       </div>
     </div>
