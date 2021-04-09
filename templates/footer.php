@@ -15,8 +15,8 @@
                 <?php
                 $urls = array(
                   'Home' => '/',
-                  'Influencers' => '/influencers',
-                  'Users' => '/users',
+                  // 'Influencers' => '/influencers',
+                  // 'Users' => '/users',
                   'Login' => '/login',
                   'Register' => '/register',
                   'My Account' => '/account',
