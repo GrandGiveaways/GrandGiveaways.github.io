@@ -34,7 +34,7 @@
           } else {
             $urls = array(
               'Home' => '/',
-              'Influencers' => '/influencers',
+              'Influencers' => '/influencers.php',
               'Users' => '/users',
               'Login' => '/login'
             );

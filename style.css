@@ -584,7 +584,41 @@ a {
   font-weight: 600;
 }
 
+/* Influencers */
+.influencer-banner {
+  padding: 50px;
+  background-image: url(/resources/logo_white_small.svg);
+  background-color: #cccccc;
+  font-size: 100px;
+  height: 100px;
+}
 
+.influencer-title {
+  padding-top: 35px;
+}
+
+.influencer-white {
+  padding: 50px;
+  
+}
+
+.influencer-red {
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
+
+.influencer-white h1 {
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.influencer-red h1 {
+  padding-bottom: 10px;
+  font-weight: 700;
+  font-size: 30px;
+}
 
 
 
