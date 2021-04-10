@@ -19,7 +19,7 @@ $social_media_types = [
   "tik" => new SocialMediaTypes("Follow me on TikTok", "tiktok.svg", 1),
   "lin" => new SocialMediaTypes("Follow me on LinkedIn", "linkedin.svg", 1),
   "yt" => new SocialMediaTypes("Subscribe to my YouTube", "youtube.svg", 1),
-  "dis" => new SocialMediaTypes("Join my Discord", "linkedin.svg", 1),
+  "dis" => new SocialMediaTypes("Join my Discord", "discord.svg", 1),
   "gg" => new SocialMediaTypes("Follow Grand Giveaways on Instagram", "instagram.svg", 1, "https://instagram.com/"),
   "def" => new SocialMediaTypes("Enter for free!", "play.svg", 2)
 ];
