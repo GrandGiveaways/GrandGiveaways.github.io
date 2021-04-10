@@ -45,5 +45,5 @@ if (is_array($social_media_array) || is_object($social_media_array)) {
   }
 }
 
-$entry_types[] = new EntryType("gg", "https://www.instagram.com/the_grand_giveaway_/");
+//$entry_types[] = new EntryType("gg", "https://www.instagram.com/the_grand_giveaway_/");
 $entry_types[] = new EntryType("def", "#");
