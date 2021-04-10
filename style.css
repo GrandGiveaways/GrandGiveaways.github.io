@@ -585,6 +585,7 @@ a {
 }
 
 /* Influencers */
+
 .influencer-banner {
   padding: 50px;
   background-image: url(/resources/logo_white_small.svg);
@@ -599,7 +600,7 @@ a {
 
 .influencer-white {
   padding: 50px;
-  
+
 }
 
 .influencer-red {

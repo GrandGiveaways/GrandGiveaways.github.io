@@ -13,14 +13,15 @@ class SocialMediaTypes {
 }
 
 $social_media_types = [
-  "twt" => new SocialMediaTypes("Visit " . $author->name . " on Twitter", "twitter.svg", 1),
-  "fb" => new SocialMediaTypes("Visit " . $author->name . " on Facebook", "facebook.svg", 1),
-  "ins" => new SocialMediaTypes("Visit " . $author->name . " on Instagram", "instagram.svg", 1),
-  "yt" => new SocialMediaTypes("Visit " . $author->name . " on Youtube", "youtube.svg", 1),
-  "tik" => new SocialMediaTypes("Visit " . $author->name . " on TikTok", "tiktok.svg", 1),
-  "lin" => new SocialMediaTypes("Visit " . $author->name . " on LinkedIn", "linkedin.svg", 1),
-  "gg" => new SocialMediaTypes("Visit Grand Giveaways on Instagram", "instagram.svg", 1, "https://instagram.com/"),
-  "def" => new SocialMediaTypes("Enter to win!", "play.svg", 2)
+  "twt" => new SocialMediaTypes("Follow me on Twitter", "twitter.svg", 1),
+  "fb" => new SocialMediaTypes("Follow me on Facebook", "facebook.svg", 1),
+  "ins" => new SocialMediaTypes("Follow me on Instagram", "instagram.svg", 1),
+  "tik" => new SocialMediaTypes("Follow me on TikTok", "tiktok.svg", 1),
+  "lin" => new SocialMediaTypes("Follow me on LinkedIn", "linkedin.svg", 1),
+  "yt" => new SocialMediaTypes("Subscribe to my YouTube", "youtube.svg", 1),
+  "dis" => new SocialMediaTypes("Join my Discord", "linkedin.svg", 1),
+  "gg" => new SocialMediaTypes("Follow Grand Giveaways on Instagram", "instagram.svg", 1, "https://instagram.com/"),
+  "def" => new SocialMediaTypes("Enter for free!", "play.svg", 2)
 ];
 
 class EntryType {
