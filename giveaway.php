@@ -67,7 +67,7 @@
         echo '"';
 
         if ($entry_type->id != "def") {
-          echo ' onClick="window.open(\'' . $entry_type->link . '\', \'_self\');"';
+          echo ' onClick="window.open(\'' . $entry_type->link . '\', \'_blank\');"';
         }
 
         if ($is_done) {
