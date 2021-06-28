@@ -9,6 +9,7 @@
     <link rel="shortcut icon" type="image/svg" href="/resources/logo_red.svg">
     <!-- Google - Start -->
     <script data-ad-client="ca-pub-1314468233933209" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <script data-ad-client="ca-pub-2044443581937255" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z35JC3QW68"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
