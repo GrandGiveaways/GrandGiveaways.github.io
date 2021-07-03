@@ -1,0 +1,382 @@
+body{
+	margin:0;
+	padding:0;
+	background-color: #f7f7f7;
+}
+
+header {
+background-color: red;
+height: 100px;
+}
+
+#banner {
+	background-color:#222222;
+	height: 185px
+}
+
+#bannertitle {
+	color: white;
+	font-size:1.7rem;
+	font-weight: 500;
+	text-align: center;
+	margin-bottom: 0;
+	padding-top: 3rem;
+}
+
+#bannerdesc {
+	color: white;
+	font-size:.8rem;
+	text-align: center;
+}
+
+
+.pic3 {
+  width: 100px;
+  height: 100px;
+  border-radius: 70px;
+  object-fit: cover;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  margin-top: -50px;
+}
+
+
+/*.loginBoxHeader {
+  font-weight: bold;
+  font-size: 120px;
+  color: #E90A43;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 30px: 
+}*/
+
+#mainarea {
+	margin: auto auto ;
+	width:70%;
+	display: flex;
+    flex-direction: row; 
+    min-height: 500px
+}
+
+.desc {
+	background-color:white;
+	padding:20px;
+	margin:20px;
+}
+
+ .myaccountlist2 {
+    list-style-type: none;
+    margin: 0.1rem;
+    padding:0.5rem;
+    text-align: left; 
+    color:#222222;
+
+    }
+
+.list {
+	margin-top:0.9rem;
+	padding-top: 0.5rem;
+}
+
+.list1 {
+	margin-top: 0
+	padding:0;
+}
+ .list a, .list1 a {
+
+	color: #222222;
+	background-color: none;
+	text-decoration: none;
+
+
+
+}
+
+
+.active a {
+	color:#E90A43;
+	font-size: 1.2rem;
+	font-weight: 500;
+}
+
+
+.active span {
+	background-color: #E90A43;
+	float: right;
+	padding:10px 0 10px 0;
+	width: 3px;
+	margin-top: 4.5px;
+
+
+}
+
+
+.leftdesc {
+	max-height: 180px;
+	margin-right: 10px;
+	overflow:hidden;
+	box-shadow: 0 7px 7px 0 rgba(0,0,0,0.3);
+	font-size: 1rem;
+	border-radius: 5px;
+
+
+}
+
+.rightdesc {
+	margin-left: 10px;
+	padding:50px;
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.3);
+	border-radius: 5px;
+	
+}
+
+.descarea {
+	display: flex;
+    flex-direction: row; 
+
+}
+
+.desc-title {
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+.row {
+	margin-bottom: 1rem;
+}
+
+.nameinput::placeholder {
+	width: 100%;
+	color:gray;
+}
+
+.nameinput {
+	margin-bottom: 0.4rem;
+	width: 100%;
+	color:black;
+	font-size: 1rem;
+}
+
+
+.row input:not(.sub-button):not(.sub-button2):not(.sub-button3), .row textarea, .row select{
+	background-color: #eeeeee;
+	border:none;
+	padding:0.9rem;
+	border-radius: 3px;
+}
+
+
+
+
+
+.supportinput::placeholder {
+	width: 100%;
+	color:gray;
+}
+
+.supportinput {
+	width: 100%;
+	color:black;
+	font-size: 1rem;
+	padding:0.3rem;
+}
+
+
+.support-dropdown {
+	width:100%;
+	padding: 0.3rem;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.support-dropdown option {
+	cursor: pointer;
+}
+
+.support-message {
+	width: 100%;
+	min-height: 10rem;
+	color:black;
+	font-size: 1rem;
+	padding:0.3rem;
+
+}
+
+.support-message::placeholder {
+	color:gray;
+
+}
+
+
+.message-title2 {
+	margin-bottom:0.1rem;
+}
+
+.left-label {
+	font-weight: 500;
+
+}
+
+
+
+#female {
+	margin-left: 1rem;
+}
+
+
+
+/*Tabs*/
+/* Style the tab */
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+
+/*Tabs*/
+
+.desc2 {
+	display: none;
+
+}
+
+.desc3 {
+	display: active;
+}
+
+.save-email {
+	bottom: 0;
+	position: absolute;
+	margin-bottom: 0.4rem;
+}
+
+
+.sub-button {
+  background-color: #E90A43;
+  color: white;
+  border: none;
+  padding: 10px 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 20px auto 0 auto;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sub-button:hover {
+  opacity: 0.9;
+  transform: scale(0.95);
+}
+
+.sub-button:active {
+  transform: scale(.92);
+}
+
+.sub-button2 {
+	background-color:#E90A43;
+	color:white;
+	width: 4.5rem;
+	height: 2rem;
+	font-size: 1rem;
+	font-weight: 500;
+	border:none;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+
+.sub-button2:hover {
+	opacity: 0.9;
+	transform: scale(0.95);
+}
+
+
+.sub-button3 {
+	background-color:#E90A43;
+	color:white;
+	width: 4.5rem;
+	height: 2rem;
+	font-size: 1rem;
+	font-weight: 500;
+	border:none;
+	cursor: pointer;
+	transition: 0.3s ease-in-out;
+}
+
+.sub-button3:hover {
+	opacity: 0.9;
+	transform: scale(1.03);
+}
+
+
+#add-card {
+	width:8rem;
+}
+
+.ccard-name1 {
+	width: 45%;
+	float: left;
+}
+
+
+.ccard-name2 {
+	width: 45%;
+	float: right;
+}
+
+.ccard-num {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	width: 100%;
+}
+
+.ccard-final-row {
+	  display: flex;
+      flex-direction: row; 
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 1rem;
+}
+
+.ccard-date {
+	width: 30%
+}
+
+.subject-issue {
+	margin-top: 3rem;
+}
+
+
+
