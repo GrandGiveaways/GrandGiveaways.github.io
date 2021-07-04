@@ -338,7 +338,7 @@
 
 
 
-  <script type="text/javascript" src="js/tabs.js"></script>
+  <script type="text/javascript" src="tabs.js"></script>
 
 </body>
 </html>
