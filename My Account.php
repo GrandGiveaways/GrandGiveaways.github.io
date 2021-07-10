@@ -3,7 +3,7 @@
 <head>
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="My Account.css">
+	<link rel="stylesheet" type="text/css" href= "My Account.css">
 	<title>My Account</title>
 
 </head>
@@ -23,8 +23,8 @@
 
 	</div>
 	<div>
-		<img src="../images/profile.png" class="pic3">
-		<!-- <i class="loginBoxHeader material-icons">account_circle</i> -->
+		<!-- <img src="../images/profile.png" class="pic3"> -->
+		<i class="login_box_header material-icons pic3">account_circle</i>
 	</div>
 </div>
 <!-- BANNER -->
@@ -34,7 +34,7 @@
 <!-- Main Area -->
 <div id="mainarea">
 	<!-- LEft -->
-	<div class="col-2 leftdesc desc">
+	<div class="d-none d-md-block leftdesc desc">
 		<ul class="myaccountlist2">
 			<li class="list1 tablinks" onclick="openCity(event, 'Group1')"><a href="#">Profile</a><span></span></li>
 			<li class="list tablinks" onclick="openCity(event, 'Group2')"><a href="#">Account</a><span></span></li>
@@ -46,9 +46,9 @@
 	<!-- LEft -->
 
 	<!-- right -->
-
+	
 	<!-- First Group "Profie" -->
-	<div class="col-8 rightdesc desc desc2" id="Group1">
+	<div class="col-lg-8 col-10 rightdesc desc desc2" id="Group1">
 		<div>
 			<h3 class="desc-title">
 				Profile
@@ -57,13 +57,13 @@
 
 			<!-- ONE ROW -->
 			<div class="row">
-				<div class="col-3 ">
+				<div class="col-lg-3">
 					<p class="left-label">Name</p>
 				</div>
-				<div class="col-6 ">
+				<div class="col-lg-7 col-sm-10">
 					<form class="">
 						<input type="text" name="FirstName" placeholder="First Name" class="nameinput">
-						<input type="text" name="FirstName" placeholder="Last Name" class="nameinput">
+						<input type="text" name="LastName" placeholder="Last Name" class="nameinput">
 					</form>
 				</div>
 			</div>
@@ -71,10 +71,10 @@
 
 			<!--ROW 2 -->
 			<div class="row">
-				<div class="col-3 ">
+				<div class="col-lg-3 ">
 					<p class="left-label">Gender</p>
 				</div>
-				<div class="col-6 ">
+				<div class="col-lg-7 col-sm-10 ">
 					<form class="">
 						<input type="radio" name="gender" id="male">
 						<label for="male">Male</label>
@@ -88,10 +88,10 @@
 
 			<!--ROW 3 -->
 			<div class="row">
-				<div class="col-3 ">
+				<div class="col-lg-3 ">
 					<p class="left-label">Date of Birth</p>
 				</div>
-				<div class="col-6 ">
+				<div class="col-lg-7 col-sm-10 ">
 					<form class="">
 						<input type="Date" name="" >
 
@@ -103,10 +103,10 @@
 
 			<!--ROW 4 -->
 			<div class="row">
-				<div class="col-3 ">
+				<div class="col-lg-3 ">
 					<p class="left-label">Location</p>
 				</div>
-				<div class="col-6 ">
+				<div class="col-lg-7 col-sm-10 ">
 					<form class="">
 						<input type="text" name="City" placeholder="City/Province" class="nameinput">
 						<input type="text" name="Country" placeholder="Country" class="nameinput">
@@ -117,10 +117,10 @@
 
 			<!--ROW 5 -->
 			<div class="row">
-				<div class="col-3 ">
+				<div class="col-lg-3 ">
 				</div>
-				<div class="col-6 ">
-					<form class="">
+				<div class="col-lg-7 col-sm-10 ">
+					<form class="btn-r">
 						<input type="submit" class="sub-button" value="Save" >
 					</form>
 				</div>
@@ -134,39 +134,39 @@
 
 
 	<!-- Second Group "Account" -->
-	<div class="col-8 rightdesc desc desc2" id="Group2">
+	<div class="col-lg-8 col-10 rightdesc desc desc2" id="Group2">
 		<div>
 			<h3 class="desc-title">
 				Account
 			</h3>
 			<hr>
 
-			<!-- ONE ROW -->
+			<!-- ROW 1 -->
 			<div class="row">
-				<div class="col-3 ">
+				<div class="col-lg-3 ">
 					<p class="left-label">Email</p>
 				</div>
-				<div class="col-6 ">
+				<div class="col-lg-7 col-sm-10 ">
 					<form class="">
-						<input type="email" name="email" placeholder="Email Address" class="nameinput">
-						<input type="password" name="password" placeholder="Password Required" class="nameinput">
+						<div>
+							<input type="email" name="email" placeholder="Email Address" class="nameinput">
+							<input type="password" name="password" placeholder="Password Required" class="nameinput">
+						<div class="btn-r">
+							<input type="submit" class="sub-button2 save-email" value="Save" >
+						</div>
+						</div>
+						
 					</form>
-				</div>
-				<div class="col-3">
-					<form class="">
-						<input type="submit" class="sub-button2 save-email" value="Save" >
-					</form>
-
 				</div>
 			</div>
-			<!-- ONE ROW -->
+			<!-- ROW 1 -->
 
 			<!--ROW 2 -->
 			<div class="row">
-				<div class="col-3 ">
+				<div class="col-lg-3 ">
 					<p class="left-label">Password</p>
 				</div>
-				<div class="col-6 ">
+				<div class="col-lg-7 col-sm-10 ">
 					<p>
 						<a href="#">Change Password</a>
 					</p>
@@ -177,23 +177,23 @@
 
 			<!--ROW 3 -->
 				<div class="row">
-					<div class="col-3 ">
+					<div class="col-lg-3 ">
 						<p class="left-label">Credit Cards</p>
 					</div>
-					<div class="col-6 ">
+					<div class="col-lg-7 col-sm-10">
 						<p>Cards are Secure</p>
 						<form id="add-card">
-							<input type="submit" onclick="card(1)" class="sub-button3" id="add-card" value="Add New Card" >
+							<input type="submit" onclick="card(1)" class="sub-button2" id="add-card" value="Add New Card" >
 						</form>
 					</div>
 				</div>
 			<!--ROW 3 -->
 			<!--ROW 3 Replaces previous row -->
 				<div class="row" id="new-card">
-					<div class="col-3 ">
+					<div class="col-lg-3 ">
 						<p class="left-label">New Card</p>
 					</div>
-					<div class="col-6 ">
+					<div class="col-lg-7 col-sm-10">
 						<form>
 							<input class="ccard-name1" type="text" placeholder="First Name" >
 							<input class="ccard-name2" type="text" placeholder="Last Name"  >
@@ -205,7 +205,7 @@
 								<input class="ccard-date" type="text" name="" placeholder="YY">
 								<input class="ccard-date" type="text" name="" placeholder="CCV">
 							</div>
-							<div>
+							<div class="btn-r">
 								<input type="submit" class="sub-button2" name="" value="Save">
 							</div>
 						</form>
@@ -219,7 +219,7 @@
 
 
 	<!-- Third Group "Support" -->
-	<div class="col-8 rightdesc desc desc2" id="Group3">
+	<div class="col-lg-8 col-10 rightdesc desc desc2" id="Group3">
 		<div>
 			<h3 class="desc-title">
 				Support
@@ -228,10 +228,10 @@
 
 			<!--ROW 1 -->
 			<div class="row">
-				<div class="col-3 ">
+				<div class="col-lg-3 ">
 					<p class="left-label">Name</p>
 				</div>
-				<div class="col-6 ">
+				<div class="col-lg-7 col-sm-10">
 					<form class="">
 						<input type="text" name="Full Name" placeholder="First Name" class="supportinput">
 					</form>
@@ -241,10 +241,10 @@
 
 			<!-- ROW 2 -->
 			<div class="row">
-				<div class="col-3 ">
+				<div class="col-lg-3 ">
 					<p class="left-label">Email</p>
 				</div>
-				<div class="col-6 ">
+				<div class="col-lg-7 col-sm-10 ">
 					<form class="">
 						<input type="email" name="email" placeholder="Email Address" class="supportinput">
 					</form>
@@ -258,10 +258,10 @@
 
 			<!--ROW 3 -->
 			<div class="subject-issue row">
-				<div class="col-3 ">
+				<div class="col-lg-3 ">
 					<p class="left-label">Subject</p>
 				</div>
-				<div class="col-6 ">
+				<div class="col-lg-7 col-sm-10 ">
 					<form class="">
 						<select class="support-dropdown">
 							<option value="...">...</option>
@@ -279,10 +279,10 @@
 
 			<!--ROW 4 -->
 			<div class="row">
-				<div class="col-3 ">
+				<div class="col-lg-3 ">
 					<p class="left-label">Message</p>
 				</div>
-				<div class="col-6 ">
+				<div class="col-lg-7 col-sm-10 ">
 					<form class="">
 						<textarea class="support-message" placeholder="Explain your Issue..."></textarea>
 					</form>
@@ -308,10 +308,10 @@
 
 			<!-- ROw 5 -->
 			<div class="row">
-				<div class="col-3 ">
+				<div class="col-lg-3 ">
 				</div>
-				<div class="col-6 ">
-					<form class="">
+				<div class="col-lg-7 col-sm-10 ">
+					<form class="btn-r">
 						<input type="submit" class="sub-button" value="Submit" >
 					</form>
 				</div>
