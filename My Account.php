@@ -29,21 +29,37 @@
 </div>
 <!-- BANNER -->
 
-
+	<!-- Top Nav (When Screen width is less than 768px) -->
+	<div class="topNav d-block d-md-none">
+			<select class="topNav-dropdown">
+				<option value="Profile"> <li class="list tablinks" onclick="openCity(event, 'Group1')"><a href="#">Profile</a> </li> </option>
+			    <option value="Account" class="list1 tablinks" onclick="openCity(event, 'Group2')"><a href="#">Account</a></option>
+			    <option value="Support" class="list1 tablinks" onclick="openCity(event, 'Group3')">Support</option>
+			</select>
+	</div>
+	<!-- Top Nav -->
 
 <!-- Main Area -->
 <div id="mainarea">
+
 	<!-- LEft -->
 	<div class="d-none d-md-block leftdesc desc">
 		<ul class="myaccountlist2">
-			<li class="list1 tablinks" onclick="openCity(event, 'Group1')"><a href="#">Profile</a><span></span></li>
-			<li class="list tablinks" onclick="openCity(event, 'Group2')"><a href="#">Account</a><span></span></li>
+			<li class="list1 tablinks" onclick="openCity(event, 'Group1')"><a href="#Group1">Profile</a><span></span></li>
+			<li class="list tablinks" onclick="openCity(event, 'Group2')"><a href="#Group2">Account</a><span></span></li>
+
+
+
 <!-- 			<li class="list tablinks" onclick="openCity(event, 'London')"><a href="#">Preferences</a></li>
 			<li class="list tablinks" onclick="openCity(event, 'London')"><a href="#">Purchases</a></li> -->
-			<li class="list tablinks" onclick="openCity(event, 'Group3')"><a href="#">Support</a><span></span></li>
+
+
+			<li class="list tablinks" onclick="openCity(event, 'Group3')"><a href="#Group3">Support</a><span></span></li>
 		</ul>
 	</div>
 	<!-- LEft -->
+
+
 
 	<!-- right -->
 	
