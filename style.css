@@ -257,16 +257,14 @@ a {
     position: relative;
 }
 .bouncingGift {
-    width: 350px;
-    height: 400px;
+    width: 250px;
     float: left;
     padding-left: 5%;
     padding-right: 50px;
 
 }
 .giveawayImg {
-    width: 350px;
-    height: 270px;
+    width: 250px;
     float: left;
     padding-left: 5%;
     padding-right: 50px;
@@ -1011,6 +1009,27 @@ div .pic3 {
 
 .subject-issue {
   margin-top: 3rem;
+}
+
+
+.topNav {
+  margin: auto auto;
+  width: 100px;
+  margin-top: 50px;
+
+}
+
+.topNav-dropdown {
+  width:183px;
+  height: 50px;
+  padding: 0.5rem;
+  padding-left: 0.9rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-left: -44px;
+  border-radius: 16px;
+  box-shadow: 0 30px 60px 0 rgb(0 0 0 / 30%);
+
 }
 
 
