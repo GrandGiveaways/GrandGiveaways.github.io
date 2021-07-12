@@ -19,7 +19,7 @@
                   // 'Users' => '/users',
                   'Login' => '/login',
                   'Register' => '/register',
-                  'My Account' => '/My Account',
+                  'My Account' => '/account',
                   'About' => '/about'
                 );
                 foreach ($urls as $name => $url) {

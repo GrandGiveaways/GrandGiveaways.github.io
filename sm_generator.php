@@ -8,16 +8,8 @@ require_once 'templates/page_header.php';
 
 $myarr = array();
 $myarr[] = [
-  "id" => "tik",
-  "link" => "https://www.tiktok.com/@financeunfolded"
-];
-$myarr[] = [
-  "id" => "yt",
-  "link" => "https://www.youtube.com/channel/UCqQxLq0u4qGeLBjoNoDa7RQ?sub_confirmation=1"
-];
-$myarr[] = [
-  "id" => "dis",
-  "link" => "https://discord.com/invite/2dhRKm4WEE"
+  "id" => "gg",
+  "link" => "https://www.instagram.com/the_grand_giveaway_/"
 ];
 
 echo serialize($myarr);
